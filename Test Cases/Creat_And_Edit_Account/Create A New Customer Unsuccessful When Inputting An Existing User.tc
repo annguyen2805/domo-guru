@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create A New customer Unsuccessful when inputting an existing user
+1. Click New Customer
+2.1. Enter valid data into: Cusomter Name, Gender, Date of Birth, Address, City, State, PIN, Mobile Number, Password
+2.2. Enter an existing email into email field
+3. Click Submit
+Expected results:
+3. Can't create new customer successful</description>
+   <name>Create A New Customer Unsuccessful When Inputting An Existing User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6fdaaea2-00cc-4674-955b-fede41b36b27</testCaseGuid>
+</TestCaseEntity>

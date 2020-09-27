@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with invalid data:
+1. Go to: http://demo.guru99.com/V4/
+2. Enter username
+3. Enter password
+4. Click Login button
+Expected:
+4. Invalid message is shown, broswer navigates back to login page</description>
+   <name>Login Unsuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>39089075-8cbd-4355-ad5c-d630c361f334</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c921b4bf-abf9-4d1b-affb-5211458abf96</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb2b6c06-5f8b-416c-9c07-47567b92e1bf</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

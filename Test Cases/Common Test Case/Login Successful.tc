@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login successful:
+1. Go to: http://demo.guru99.com/V4/
+2. Enter username
+3. Enter password
+4. Click Login button
+Expected results:
+4. Login successful</description>
+   <name>Login Successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44ea6552-f2b4-4047-abf5-6e2b087cd1c7</testCaseGuid>
+</TestCaseEntity>

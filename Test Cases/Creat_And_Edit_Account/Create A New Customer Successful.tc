@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can create new customer  using valid data:
+1. Click New Customer
+2. Enter Valid data into: Cusomter Name, Password, Gender, Date of Birth, Address, City, State, PIN, Mobile Number, E-mail fields
+3. Click Submit
+Expected Results:
+3. Created new customer  successful</description>
+   <name>Create A New Customer Successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c3cf172-7cbc-4b9b-8bc7-ace4d75fb765</testCaseGuid>
+</TestCaseEntity>

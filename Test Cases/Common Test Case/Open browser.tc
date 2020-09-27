@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Open browser
+2. Maximize browser
+3. Navigate to http://demo.guru99.com/V4/</description>
+   <name>Open browser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6e211c4-26e8-450a-b051-9c3e039023d7</testCaseGuid>
+</TestCaseEntity>

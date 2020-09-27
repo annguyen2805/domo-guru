@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit Customer Successful When Inputting valid data
+1. Click Edit Customer
+2. Enter Customer ID
+3. Click Submit
+4. Enter valid data into all fields
+5. Click Submit button
+Expected results:
+5. Edited successful</description>
+   <name>Edit Customer Successful When Inputting valid data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f1b89b2-1d96-49c3-94bf-679dda6fbbac</testCaseGuid>
+</TestCaseEntity>

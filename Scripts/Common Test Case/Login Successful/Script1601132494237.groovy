@@ -15,4 +15,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('Common Test Case/Open browser'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('LoginPageUI/Page_Guru99 Bank Login Page/input_UserID_uid'), 'mngr287008')
+
+WebUI.setEncryptedText(findTestObject('LoginPageUI/Page_Guru99 Bank Login Page/input_Password_password'), 'TkkUUsotFM4=')
+
+WebUI.click(findTestObject('LoginPageUI/Page_Guru99 Bank Login Page/input_Password_btnLogin'))
+
+String a = WebUI.getText(findTestObject('LoginPageUI/Page_Guru99 Bank Login Page/Login_Successful'))
+
+WebUI.comment(a)
+
+WebUI.verifyEqual(a, 'Manger Id : mngr287008')
 
