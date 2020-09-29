@@ -25,4 +25,6 @@ public class CommonPageUI {
 	public static final String DYNAMIC_TEXT_BOX = "//input[@name='%s']"
 	public static final String DYNAMIC_BUTTON = "//input[@name='%s']"
 	public static final String DYNAMIC_PAGE_LOCATOR = "//ul[@class='menusubnav']//a[text()='%s']"
+	public static final String DYNAMIC_HEADER_MESSEAGE = "//p[@class='heading3' and text()='%s']"
+	public static final String DYNAMIC_TABLE="//td[contains(text(),'%s')]//following-sibling::td"
 }

@@ -20,7 +20,7 @@
       <name>dateBirth</name>
    </variable>
    <variable>
-      <defaultValue>'ha noi/ncau giay/nho chi minh'</defaultValue>
+      <defaultValue>'ha noi cau giay ho chi minh'</defaultValue>
       <description></description>
       <id>b1c1efeb-3efd-40c0-ae53-d3ff9cd36d90</id>
       <masked>false</masked>

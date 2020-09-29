@@ -38,9 +38,14 @@ CustomKeywords.'commonKeyword.senkeyDynamicTextbox.sendkeyTexboxDynamic'('pinno'
 
 CustomKeywords.'commonKeyword.senkeyDynamicTextbox.sendkeyTexboxDynamic'('telephoneno', telephone)
 
-CustomKeywords.'commonKeyword.senkeyDynamicTextbox.sendkeyTexboxDynamic'('emailid', email)
+CustomKeywords.'commonKeyword.senkeyDynamicTextbox.sendkeyTexboxDynamic'('emailid', GlobalVariable.email)
 
 CustomKeywords.'commonKeyword.senkeyDynamicTextbox.sendkeyTexboxDynamic'('password', password)
 
 CustomKeywords.'commonKeyword.clickToDynamicButon.clickDynamicSubmitButton'('sub')
 
+CustomKeywords.'commonKeyword.getDynamicTextHeaderMessage.verifyDynamicTextHeaderMessage'('Customer Registered Successfully!!!')
+
+GlobalVariable.customerID =CustomKeywords.'commonKeyword.getDynamicTextHeaderMessage.getDynamicTextTable'("Customer ID")
+
+println GlobalVariable.customerID

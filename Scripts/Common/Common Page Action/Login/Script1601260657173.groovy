@@ -16,13 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-String email = ('katalon' + randomNumber()) + '@hotmail.com'
+GlobalVariable.email = ('katalon' + randomNumber()) + '@hotmail.com'
 
 WebUI.openBrowser('http://demo.guru99.com/')
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'commonKeyword.senkeyDynamicTextbox.sendkeyTexboxDynamic'('emailid', email)
+CustomKeywords.'commonKeyword.senkeyDynamicTextbox.sendkeyTexboxDynamic'('emailid', GlobalVariable.email)
 
 CustomKeywords.'commonKeyword.clickToDynamicButon.clickDynamicSubmitButton'('btnLogin')
 
