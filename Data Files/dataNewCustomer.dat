@@ -3,10 +3,10 @@
    <description></description>
    <name>dataNewCustomer</name>
    <tag></tag>
-   <containsHeaders>false</containsHeaders>
+   <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>69ba1bc1-a4ca-4ef8-b6fd-14049b53e673</dataFileGUID>
-   <dataSourceUrl>../../Desktop/dataNewCustomer.xlsx</dataSourceUrl>
+   <dataSourceUrl>data/dataNewCustomer.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <properties>
@@ -17,6 +17,6 @@
    </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>data</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
