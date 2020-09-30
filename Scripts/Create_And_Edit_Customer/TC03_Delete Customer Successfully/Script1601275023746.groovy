@@ -16,27 +16,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Common Test Case/Login Successful'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'common.clickMainOptions'('Delete Customer')
 
-WebUI.click(findTestObject('NewCustomerPageUI/Page_Guru99 Bank Manager HomePage/a_New Customer'))
+WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('cusid'), customerID)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'name', name)
+WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 
-WebUI.click(findTestObject('CommonInputField/TextField'), 'gender')
+WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'dob', dob)
+WebUI.acceptAlert()
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'addr', address)
+WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'city', city)
-
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'state', state)
-
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'pinno', PIN)
-
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'telephoneno', telephoneNumber)
-
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'emailid', email)
-
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'submit', password)
+WebUI.acceptAlert()
 
