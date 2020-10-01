@@ -15,7 +15,7 @@
       <guid>95faafaa-c2b4-45d8-a265-ef866766cb2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Common Page Action/Payment</testCaseId>
+      <testCaseId>Test Cases/Payment/Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>49759fa0-7aac-4504-85a3-fff0aaaf7f92</id>
