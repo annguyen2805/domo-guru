@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CustomerID</name>
+   <name>NotificationMessage</name>
    <tag></tag>
-   <elementGuidId>96750c1b-7e19-4128-b2d1-6a4c54e70987</elementGuidId>
+   <elementGuidId>e228ed05-b474-4a16-9695-fd3bfd8b73a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()='${'objectName']/../td[2]</value>
+         <value>//p[text()='${messageContent}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

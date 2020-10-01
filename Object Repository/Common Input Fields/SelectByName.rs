@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CustomerID</name>
+   <name>SelectByName</name>
    <tag></tag>
-   <elementGuidId>96750c1b-7e19-4128-b2d1-6a4c54e70987</elementGuidId>
+   <elementGuidId>24feca52-b415-4bc8-88f3-c9dc2cd922e6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()='${'objectName']/../td[2]</value>
+         <value>//select[@name= '${selectName}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

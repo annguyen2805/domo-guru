@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Delete Account Successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f72e0848-5c73-444a-a7d7-7b114b2a3786</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>40d16439-837d-46b5-b283-58847a729302</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+</TestCaseEntity>

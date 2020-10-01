@@ -29,10 +29,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.lang.String
 
 public class common {
-	
+
 	@Keyword
 	String randomPassword() {
-		
+
 		Random random = new Random()
 		return 'duy@'+ random.nextInt(9999).toString()
 	}
@@ -58,23 +58,27 @@ public class common {
 		outFile.close();
 	}
 	@Keyword
-	public static void updateCustomerID(String text) {
+	public static void updateCustomerID(int text, int pin) {
 		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
 		'Read data from excel'
-		String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
-		'Write data to excel'
-		sheet.getRow(1).createCell(10).setCellValue(text);
 
+		'Write data to excel'
+		for(int i=1; i<= sheet.getLastRowNum();i++) {
+			int customerPIN = (Integer)sheet.getRow(i).getCell(6).getNumericCellValue();
+			if(customerPIN == pin) {
+				sheet.getRow(i).createCell(10).setCellValue(text);
+			}
+		}
 		file.close();
 		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
-	public static void updateCustomerInfo(String customerID) {
+	public static void updateCustomerInfo(int customerID) {
 		FileInputStream customerFile = new FileInputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
 		XSSFWorkbook workbook1 = new XSSFWorkbook(customerFile);
 		XSSFSheet sheet1 = workbook1.getSheetAt(0);
@@ -86,21 +90,33 @@ public class common {
 		'Read data from excel'
 		'Write data to excel'
 		for(int i=1; i <= sheet1.getLastRowNum();i++) {
-			if(sheet1.getRow(i).getCell(10).getStringCellValue().equalsIgnoreCase(customerID)) {
+			if(sheet1.getRow(i).getCell(10).getNumericCellValue() == customerID) {
+
 				for(int j=1;j<=sheet2.getLastRowNum();j++) {
-					if(sheet2.getRow(j).getCell(0).getStringCellValue().equalsIgnoreCase(customerID)) {
+					if(sheet2.getRow(j).getCell(0).getNumericCellValue() == customerID) {
 						String address = sheet2.getRow(j).getCell(1).getStringCellValue();
+
 						String city = sheet2.getRow(j).getCell(2).getStringCellValue();
+
 						String state = sheet2.getRow(j).getCell(3).getStringCellValue();
-						String pin = sheet2.getRow(j).getCell(4).getStringCellValue();
-						String phone = sheet2.getRow(j).getCell(5).getStringCellValue();
+
+						String pin = (Integer) sheet2.getRow(j).getCell(4).getNumericCellValue();
+
+						String phone = (Integer) sheet2.getRow(j).getCell(5).getNumericCellValue();
+
 						String mail = sheet2.getRow(j).getCell(6).getStringCellValue();
 
+
 						sheet1.getRow(i).createCell(3).setCellValue(address);
+
 						sheet1.getRow(i).createCell(4).setCellValue(city);
+
 						sheet1.getRow(i).createCell(5).setCellValue(state);
+
 						sheet1.getRow(i).createCell(6).setCellValue(pin);
+
 						sheet1.getRow(i).createCell(7).setCellValue(phone);
+
 						sheet1.getRow(i).createCell(8).setCellValue(mail);
 					}
 				}
@@ -110,6 +126,66 @@ public class common {
 		editFile.close();
 		FileOutputStream outFile = new FileOutputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
 		workbook1.write(outFile);
+		outFile.close();
+	}
+
+	@Keyword
+	public static void updateAccountID(int text, int iniDeposit) {
+		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+		XSSFSheet sheet = workbook.getSheetAt(0);
+
+		'Write data to excel'
+		for(int i=1; i<= sheet.getLastRowNum();i++) {
+			int deposit = (Integer)sheet.getRow(i).getCell(2).getNumericCellValue();
+			if(deposit == iniDeposit) {
+				if(sheet.getRow(i).getCell(3) == null) {
+					sheet.getRow(i).createCell(3).setCellValue(text);
+					break;
+				}
+				else if(sheet.getRow(i).getCell(3).getNumericCellValue() == 0) {
+					sheet.getRow(i).createCell(3).setCellValue(text);
+					break;
+				}
+			}
+		}
+		file.close();
+		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		workbook.write(outFile);
+		outFile.close();
+	}
+	@Keyword
+	public static void deleteAccountID(int accountID) {
+		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+		XSSFSheet sheet = workbook.getSheetAt(0);
+
+		'Write data to excel'
+		for(int i=1; i<= sheet.getLastRowNum();i++) {
+			if(sheet.getRow(i).getCell(3).getNumericCellValue() == accountID) {
+				sheet.getRow(i).getCell(3).setCellValue(null);
+			}
+		}
+		file.close();
+		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		workbook.write(outFile);
+		outFile.close();
+	}
+	@Keyword
+	public static void deleteCustomerID(int customerID) {
+		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+		XSSFSheet sheet = workbook.getSheetAt(0);
+
+		'Write data to excel'
+		for(int i=1; i<= sheet.getLastRowNum();i++) {
+			if(sheet.getRow(i).getCell(10).getNumericCellValue() == customerID) {
+				sheet.getRow(i).getCell(10).setCellValue(null);
+			}
+		}
+		file.close();
+		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		workbook.write(outFile);
 		outFile.close();
 	}
 
@@ -136,5 +212,17 @@ public class common {
 	@Keyword
 	TestObject textAreaByName(String nameValue) {
 		return findTestObject('Object Repository/Common Input Fields/TextAreaByName',['nameValue':nameValue])
+	}
+	@Keyword
+	TestObject outputObject(String outputName){
+		return findTestObject('Object Repository/Common Objects/outputObject',['outputName':outputName])
+	}
+	@Keyword
+	TestObject selectByName(String selectName) {
+		return findTestObject('Object Repository/Common Input Fields/SelectByName',['selectName': selectName])
+	}
+	@Keyword
+	TestObject messageNoti(String messageContent) {
+		return findTestObject('Object Repository/Common Objects/NotificationMessage',['messageContent': messageContent])
 	}
 }
