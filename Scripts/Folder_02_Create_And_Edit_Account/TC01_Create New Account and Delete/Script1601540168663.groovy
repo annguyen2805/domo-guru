@@ -11,6 +11,7 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
@@ -32,10 +33,15 @@ WebUI.verifyElementVisible(CustomKeywords.'common.messageNoti'('Account Generate
 
 int accountID = Integer.parseInt(WebUI.getText(CustomKeywords.'common.outputObject'('Account ID')))
 
-println accountID
+println(accountID)
 
 CustomKeywords.'common.updateAccountID'(accountID, Integer.parseInt(iniDeposit))
 
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Customer ID')), customerID, false)
+
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Account Type')), accountType, false)
+
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Current Amount')), iniDeposit, false)
+
+WebUI.callTestCase(findTestCase('Folder_02_Create_And_Edit_Account/TC03_Delete Account Successfully'), [('accountID') : accountID.toString()], 
+    FailureHandling.STOP_ON_FAILURE)

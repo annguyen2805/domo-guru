@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Password</name>
+   <name>EditAccount</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>2e1ea869-f585-48f0-9d60-9c823d28e112</dataFileGUID>
-   <dataSourceUrl>Excels/Credentials.xlsx</dataSourceUrl>
+   <dataFileGUID>f64fcd12-0d8a-449d-ac31-0ce6c9218a69</dataFileGUID>
+   <dataSourceUrl>Excels/EditAccount.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

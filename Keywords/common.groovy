@@ -43,7 +43,7 @@ public class common {
 	}
 	@Keyword
 	public static void updatePassword(String text) {
-		FileInputStream file = new FileInputStream(new File('D:\\Excels\\Credentials.xlsx'));
+		FileInputStream file = new FileInputStream(new File('‪C:\\Users\\lqduy\\git\\demo-guru\\Excels\\Credentials.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -53,13 +53,13 @@ public class common {
 		sheet.getRow(1).createCell(1).setCellValue(text);
 
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\Credentials.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\Credentials.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
 	public static void updateCustomerID(int text, int pin) {
-		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -73,17 +73,17 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
 	public static void updateCustomerInfo(int customerID) {
-		FileInputStream customerFile = new FileInputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		FileInputStream customerFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
 		XSSFWorkbook workbook1 = new XSSFWorkbook(customerFile);
 		XSSFSheet sheet1 = workbook1.getSheetAt(0);
 
-		FileInputStream editFile = new FileInputStream(new File('D:\\Excels\\EditCustomer.xlsx'));
+		FileInputStream editFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\EditCustomer.xlsx'));
 		XSSFWorkbook workbook2 = new XSSFWorkbook(editFile);
 		XSSFSheet sheet2 = workbook2.getSheetAt(0);
 
@@ -124,14 +124,44 @@ public class common {
 		}
 		customerFile.close();
 		editFile.close();
-		FileOutputStream outFile = new FileOutputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		FileOutputStream outFile = new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
 		workbook1.write(outFile);
 		outFile.close();
 	}
 
 	@Keyword
+	public static void updateAccountInfo(int accountID){
+		FileInputStream accountFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+		XSSFWorkbook workbook1 = new XSSFWorkbook(accountFile);
+		XSSFSheet sheet1 = workbook1.getSheetAt(0);
+
+		FileInputStream editFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\EditAccount.xlsx'));
+		XSSFWorkbook workbook2 = new XSSFWorkbook(editFile);
+		XSSFSheet sheet2 = workbook2.getSheetAt(0);
+
+		for(int i = 1; i < sheet1.getLastRowNum(); i++) {
+			if(sheet1.getRow(i).getCell(3).getNumericCellValue() == accountID) {
+				for(int j = 1; j < sheet2.getLastRowNum(); j++) {
+					if(sheet2.getRow(j).getCell(0).getNumericCellValue() == accountID) {
+						String accountType = sheet2.getRow(j).getCell(1).getStringCellValue();
+
+						sheet1.getRow(i).getCell(1).setCellValue(accountType);
+					}
+				}
+			}
+		}
+		accountFile.close();
+		editFile.close();
+		FileOutputStream outFile = new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+		workbook1.write(outFile);
+		outFile.close();
+	}
+
+
+
+	@Keyword
 	public static void updateAccountID(int text, int iniDeposit) {
-		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -150,13 +180,13 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
 	public static void deleteAccountID(int accountID) {
-		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -167,13 +197,13 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateNewAccount.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
 	public static void deleteCustomerID(int customerID) {
-		FileInputStream file = new FileInputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -184,7 +214,7 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('D:\\Excels\\CreateCustomer.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}

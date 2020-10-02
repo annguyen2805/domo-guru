@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS06_User is able to edit ACCOUNT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>64c4aa4e-2f20-4d0b-8ae3-5c83355a17b5</testSuiteGuid>
+   <testCaseLink>
+      <guid>58303a5e-67c4-41d0-8b9a-1d565c0e0f5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common/TC01_Login Successfully</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>676d7727-d9e5-48f6-ac2d-96f5796ef4f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Folder_02_Create_And_Edit_Account/TC01_1_Create New Account Successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9db1cd57-1a51-4b6b-88f1-89e1ce1c3568</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/NewAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9db1cd57-1a51-4b6b-88f1-89e1ce1c3568</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>customerID</value>
+         <variableId>8b1e7f9b-a748-4269-b5c9-32051b780a04</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9db1cd57-1a51-4b6b-88f1-89e1ce1c3568</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountType</value>
+         <variableId>b971030c-9348-492c-aa7a-f911ee7c7c9f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9db1cd57-1a51-4b6b-88f1-89e1ce1c3568</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iniDeposit</value>
+         <variableId>bf0ebe41-b1e5-4c05-8418-66663fe08b61</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c445a512-da80-46af-aa55-1b24f6689fff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Folder_02_Create_And_Edit_Account/TC02_Edit New Account Successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>610e6668-fde6-48bf-9106-954506c5b811</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EditAccount</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>610e6668-fde6-48bf-9106-954506c5b811</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountID</value>
+         <variableId>d6edc149-0cbc-4ab7-9fdf-1e20a5b02d90</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>610e6668-fde6-48bf-9106-954506c5b811</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountType</value>
+         <variableId>a9d65029-7c28-401f-bf41-6246c6bfc304</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>b11a70e2-9a97-487a-877c-23171b4b722c</dataFileGUID>
-   <dataSourceUrl>D:\Excels\CreateCustomer.xlsx</dataSourceUrl>
+   <dataSourceUrl>Excels/CreateCustomer.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

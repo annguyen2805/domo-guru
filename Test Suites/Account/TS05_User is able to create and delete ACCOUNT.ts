@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS05_User is able to create ACCOUNT</name>
+   <name>TS05_User is able to create and delete ACCOUNT</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -21,7 +21,7 @@
       <guid>d7bc5a2a-e8e4-4329-9fcc-9a4b5ba5f36e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_02_Create_And_Edit_Account/TC01_Create New Account Successfully</testCaseId>
+      <testCaseId>Test Cases/Folder_02_Create_And_Edit_Account/TC01_Create New Account and Delete</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>572dd55e-0f59-432c-bc41-34356cf66b9e</id>
