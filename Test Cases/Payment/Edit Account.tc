@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29d4bd3b-4b78-41ef-a681-7cde71d34ee8</testCaseGuid>
+   <variable>
+      <defaultValue>'Current'</defaultValue>
+      <description></description>
+      <id>319b9c6e-cf5c-421a-aee1-2530d09e7aea</id>
+      <masked>false</masked>
+      <name>editAccountType</name>
+   </variable>
+</TestCaseEntity>

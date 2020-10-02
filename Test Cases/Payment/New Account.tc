@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e81ea1f6-664d-4b2f-93df-39cbf7476c71</testCaseGuid>
+   <variable>
+      <defaultValue>'Savings'</defaultValue>
+      <description></description>
+      <id>289cf148-85f3-4fae-a9da-65d1ebfd8752</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+</TestCaseEntity>

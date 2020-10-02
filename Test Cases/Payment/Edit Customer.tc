@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0247b622-1975-4280-a501-fb1332708999</testCaseGuid>
+   <variable>
+      <defaultValue>'HVM'</defaultValue>
+      <description></description>
+      <id>265fe1e7-0b69-4312-9a29-c1d5d69b6093</id>
+      <masked>false</masked>
+      <name>editCity</name>
+   </variable>
+   <variable>
+      <defaultValue>'hai phong'</defaultValue>
+      <description></description>
+      <id>37a6b854-5bfc-40bd-9b24-619640fe30c5</id>
+      <masked>false</masked>
+      <name>editState</name>
+   </variable>
+   <variable>
+      <defaultValue>'4568266512'</defaultValue>
+      <description></description>
+      <id>54d05ebe-bea2-4046-97f5-76abfea43584</id>
+      <masked>false</masked>
+      <name>editMobile</name>
+   </variable>
+</TestCaseEntity>
