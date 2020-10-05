@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -12,6 +14,7 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
@@ -20,23 +23,33 @@ WebUI.callTestCase(findTestCase('Common Test Case/Login Successful'), [:], Failu
 
 WebUI.click(findTestObject('NewCustomerPageUI/Page_Guru99 Bank Manager HomePage/a_New Customer'))
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'name', name)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'Customer Name']), name)
 
-WebUI.click(findTestObject('CommonInputField/TextField'), 'gender')
+WebUI.click(findTestObject('CommonInputField/RadioField', [('inputValue') : gender]))
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'dob', dob)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'Date of Birth']), dob)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'addr', address)
+WebUI.setText(findTestObject('CommonInputField/TextArea',[('inputLabel') : 'Address']), address)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'city', city)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'City']), city)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'state', state)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'State']), state)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'pinno', PIN)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'PIN']), PIN.toString())
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'telephoneno', telephoneNumber)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'Mobile Number']), telephoneNumber.toString())
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'emailid', email)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'E-mail']), email)
 
-WebUI.sendKeys(findTestObject('CommonInputField/TextField'), 'submit', password)
+WebUI.setText(findTestObject('CommonInputField/TextField', [('inputLabel') : 'Password']), password)
+
+WebUI.click(findTestObject('CommonInputField/Button', [('inputValue') : button]))
+
+WebElement getTextCU = DriverFactory.getWebDriver().findElement(By.xpath('//*[@id="customer"]//p'))
+
+String getTextLogin = getTextCU.getText()
+
+WebUI.verifyEqual(getTextLogin, 'Customer Registered Successfully!!!')
+
+WebUI.closeBrowser()
 

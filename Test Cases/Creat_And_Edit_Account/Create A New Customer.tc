@@ -11,73 +11,80 @@ Expected Results:
    <comment></comment>
    <testCaseGuid>7a527d95-0006-4917-9afa-0e4688015840</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Anh Nem'</defaultValue>
       <description></description>
       <id>e5344fde-db27-4720-9af9-bd654d67f378</id>
       <masked>false</masked>
       <name>name</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'f'</defaultValue>
       <description></description>
       <id>00e63360-245d-4822-ad41-96ad49e4dfb2</id>
       <masked>false</masked>
       <name>gender</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'10/11/1988'</defaultValue>
       <description></description>
       <id>75d8a452-3912-49d2-b871-4b11bbceb636</id>
       <masked>false</masked>
       <name>dob</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'60 Hoang Wuoc Viet'</defaultValue>
       <description></description>
       <id>91971e4a-3f32-41b9-af51-ed14c7c14ea5</id>
       <masked>false</masked>
       <name>address</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Ha Noi'</defaultValue>
       <description></description>
       <id>7b40d8ad-24a6-4d12-90c4-de1c5b399bc5</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Viet Nam'</defaultValue>
       <description></description>
       <id>72d068a1-9caa-4f01-97fc-b760eb067867</id>
       <masked>false</masked>
       <name>state</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>111111</defaultValue>
       <description></description>
       <id>56208838-7ea1-4595-aebb-4cd4dcaf500f</id>
       <masked>false</masked>
       <name>PIN</name>
    </variable>
    <variable>
-      <defaultValue>0</defaultValue>
+      <defaultValue>909090909</defaultValue>
       <description></description>
       <id>937774a7-ea29-441b-ac16-286b3f1f1bd8</id>
       <masked>false</masked>
       <name>telephoneNumber</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'anh8@gmail.com'</defaultValue>
       <description></description>
       <id>3f955a6c-c150-4fd1-964a-df63687679fa</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'123456klm'</defaultValue>
       <description></description>
       <id>9224137d-8271-4ab0-8272-bc8e14d75c71</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Submit'</defaultValue>
+      <description></description>
+      <id>0db83761-ec72-4899-95f6-74aa0cb8340e</id>
+      <masked>false</masked>
+      <name>button</name>
    </variable>
 </TestCaseEntity>

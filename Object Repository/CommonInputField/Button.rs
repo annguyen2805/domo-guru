@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Xpath of text area fields</description>
-   <name>TextArea</name>
+   <description>Xpath of the Submit &amp; Reset button</description>
+   <name>Button</name>
    <tag></tag>
-   <elementGuidId>c5c894ce-9478-461d-9d6a-99c9b66cc1a0</elementGuidId>
+   <elementGuidId>9cbd7ac6-1dce-4cf5-8ea9-746ebe6edd53</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()='${inputLabel}']/following-sibling::td/textarea</value>
+         <value>//input[@value='${inputValue}']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
