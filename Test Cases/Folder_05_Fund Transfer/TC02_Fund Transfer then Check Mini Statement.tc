@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Fund Transfer then Check Mini Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bed66908-ba77-4383-a4c5-2f3d153bd10c</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8579fdbd-af49-456f-999d-60b0ad7b9be1</id>
+      <masked>false</masked>
+      <name>payerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>fcf66279-e957-4119-a9f8-ee7fab9c0865</id>
+      <masked>false</masked>
+      <name>payeeAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>09ac0b89-d483-4a9c-95eb-39fe74cdda9f</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>096393c3-75df-48a7-a0a6-5d4e4b6017ac</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

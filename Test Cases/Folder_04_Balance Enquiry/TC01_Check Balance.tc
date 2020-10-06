@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Check Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67a6b290-6ae9-4ec9-92a5-99b1c7bbcfca</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>189a2c64-74af-4c12-8cfb-9d316db32fe2</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>99fdd2e3-789a-4b5a-b456-7393c3758d20</id>
+      <masked>false</masked>
+      <name>expectedBalance</name>
+   </variable>
+</TestCaseEntity>

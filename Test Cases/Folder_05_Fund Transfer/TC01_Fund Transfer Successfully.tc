@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Fund Transfer Successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7011d8b-fb67-4651-86f4-65757c649e34</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c85ccd19-b981-4f08-867c-d6136799cb25</id>
+      <masked>false</masked>
+      <name>payerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a972ba01-d411-4360-ab8c-349747b352a5</id>
+      <masked>false</masked>
+      <name>payeeAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1415948d-fb18-4899-97fb-2a7ceebb2002</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5a4acaec-4385-4138-a392-3c3ba90bbce9</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

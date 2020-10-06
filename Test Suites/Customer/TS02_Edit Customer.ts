@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS02_Edit Customer</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>f42ff68e-a953-4e8d-b4e4-9c8fab26d403</testSuiteGuid>
+   <testCaseLink>
+      <guid>6c01cb19-dfa7-46de-823f-3335838fba80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Folder_01_Create_And_Edit_Customer/TC02_Edit Customer Successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/EditCustomer</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>customerID</value>
+         <variableId>803164af-857f-4e4c-b834-8cd3345f51cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>3946578d-3f54-4faf-8ac1-346814ecd19f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>30e4ba93-0068-4595-bb99-2302615aba8d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>state</value>
+         <variableId>91fae610-9e92-4eec-b202-094777a89ec5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pin</value>
+         <variableId>ea3021f9-651b-465c-953a-4f5189981ab5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
+         <variableId>741b987c-84a4-4b41-a3c9-ab07beb42a80</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ef20c2ee-8ffb-4c90-8b00-5e1f2654a9c2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mail</value>
+         <variableId>381b402e-c170-43f7-9465-008170936d75</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Check Custom Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78e0889a-b154-4378-bcf9-a7a682ae25b8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2ec11273-54a7-4dee-bfb0-2fa802e3ff6a</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>81d5fd28-2c97-480c-a9ca-bd795bc59796</id>
+      <masked>false</masked>
+      <name>fromDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>41d1f5dd-86b4-4df5-9535-842a39cbdfee</id>
+      <masked>false</masked>
+      <name>toDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ee5f9ef0-bed9-41a5-8af8-3b93f69e5531</id>
+      <masked>false</masked>
+      <name>minimumValue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>23520ba4-1825-48d4-914e-63dc27abdf7d</id>
+      <masked>false</masked>
+      <name>numOfTransaction</name>
+   </variable>
+</TestCaseEntity>

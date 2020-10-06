@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS01_Check Custom Statement</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>66c540e3-4dd2-4302-8d46-67cbb9bc861f</testSuiteGuid>
+   <testCaseLink>
+      <guid>40f3d28a-806a-4184-be1e-db065afdfa53</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Folder_07_Check Custom Statement/TC01_Check Custom Statement</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9806360d-e5ce-45c6-a4e6-88283269c787</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Statement</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountID</value>
+         <variableId>2ec11273-54a7-4dee-bfb0-2fa802e3ff6a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fromDate</value>
+         <variableId>81d5fd28-2c97-480c-a9ca-bd795bc59796</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>toDate</value>
+         <variableId>41d1f5dd-86b4-4df5-9535-842a39cbdfee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>minimumValue</value>
+         <variableId>ee5f9ef0-bed9-41a5-8af8-3b93f69e5531</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>numOfTransaction</value>
+         <variableId>23520ba4-1825-48d4-914e-63dc27abdf7d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

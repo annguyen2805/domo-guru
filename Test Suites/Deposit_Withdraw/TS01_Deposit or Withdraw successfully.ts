@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS01_Deposit or Withdraw successfully</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>6a3fb325-4092-4fca-b1a8-095a0b672fa2</testSuiteGuid>
+   <testCaseLink>
+      <guid>7fe61694-468f-4d46-9504-b3bafdb8bf92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Folder_03_Deposit_Withdrawal/TC01_Deposit or Withdraw successfully</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bb895fa8-3460-4f7d-a231-f96eddc0edbd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Deposit-Withdrawal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>bb895fa8-3460-4f7d-a231-f96eddc0edbd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>type</value>
+         <variableId>369a9a40-1061-4393-b8c3-a1b24ffd953f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bb895fa8-3460-4f7d-a231-f96eddc0edbd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountID</value>
+         <variableId>715283f2-2f6a-4a88-b443-dc96d18d7fc2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bb895fa8-3460-4f7d-a231-f96eddc0edbd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>amount</value>
+         <variableId>fb03374b-fb7c-45fd-a08a-d8a87c1f2ef9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bb895fa8-3460-4f7d-a231-f96eddc0edbd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>4389eb2b-2f90-489e-a4ad-07c05c8e1862</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

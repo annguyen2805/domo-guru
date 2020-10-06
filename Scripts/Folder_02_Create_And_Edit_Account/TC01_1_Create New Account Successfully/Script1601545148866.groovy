@@ -35,10 +35,24 @@ int accountID = Integer.parseInt(WebUI.getText(CustomKeywords.'common.outputObje
 
 println(accountID)
 
-CustomKeywords.'common.updateAccountID'(accountID, Integer.parseInt(iniDeposit))
+//CustomKeywords.'common.updateAccountID'(accountID, Integer.parseInt(iniDeposit))
 
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Customer ID')), customerID, false)
 
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Account Type')), accountType, false)
 
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Current Amount')), iniDeposit, false)
+
+
+ArrayList<String> list = new ArrayList<String>()
+
+list.add(accountID.toString())
+list.add(iniDeposit)
+
+
+
+
+return list
+
+
+

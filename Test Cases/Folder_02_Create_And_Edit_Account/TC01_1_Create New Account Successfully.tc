@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>iniDeposit</name>
    </variable>
+   <variable>
+      <defaultValue>['', '']</defaultValue>
+      <description></description>
+      <id>08d771a7-f00e-4973-af44-b7cbaba8cf73</id>
+      <masked>false</masked>
+      <name>list</name>
+   </variable>
 </TestCaseEntity>

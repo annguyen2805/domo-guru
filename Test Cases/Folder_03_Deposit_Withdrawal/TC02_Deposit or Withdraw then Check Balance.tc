@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Deposit or Withdraw then Check Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5e2ff4f-70da-463b-8637-a2ea130af45f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b9b354d7-b2fb-4852-8ed9-bb6a49daed74</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>096bf31b-99ed-472e-827d-afdc2a4a49bf</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5abe24d0-b2a7-4509-bd1d-c07b037d9f1b</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b68e707c-6625-44e0-b983-77d2a5b8b9ef</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

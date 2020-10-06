@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Create 2 Accs then Transfer then Compare 2 Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27c7d091-483d-4925-ae14-102e0ba51418</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>19a13ffb-50a6-4ba7-8479-1c72efe0800b</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c1ccacb9-bdbc-4b12-ad73-101d1191e9c0</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7a3d5d57-5207-4bcb-9d26-e4e2e5725b4e</id>
+      <masked>false</masked>
+      <name>iniDeposit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8ff5232e-80e1-40d8-845a-5bd612334fcd</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8aa56afd-a6f2-40ae-bc6d-2b3ff4f8ce54</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

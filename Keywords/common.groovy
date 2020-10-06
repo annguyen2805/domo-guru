@@ -12,7 +12,9 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
@@ -26,7 +28,10 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
 import java.lang.String
+import org.openqa.selenium.By as By
 
 public class common {
 
@@ -218,11 +223,62 @@ public class common {
 		workbook.write(outFile);
 		outFile.close();
 	}
+	@Keyword
+	public boolean verifyTableCell(int expectedCell, String expectedData,String tableID) {
+		WebDriver driver = DriverFactory.getWebDriver();
+		WebElement table = driver.findElement(By.xpath('//table[@id="'+tableID+'"]/tbody'));
+		List<WebElement> rows = table.findElements(By.tagName('tr'));
+		int rowSize = rows.size();
+		println(rowSize)
+		for(int i=1; i< rowSize;i++ ) {
+			List<WebElement> cells = rows.get(i).findElements(By.tagName('td'));
+			if(cells.get(expectedCell-1).getText().equalsIgnoreCase(expectedData)) {
+
+				KeywordUtil.markPassed("Data Cell: " + expectedData + " Matched")
+				return true;
+			}
+		}
+		KeywordUtil.markFailedAndStop("Data Cell: " + expectedData + " Not matched")
+		return false;
+	}
+	@Keyword
+	public boolean verifyTransactionNumber(int expectedNumber, String tableID) {
+		WebDriver driver = DriverFactory.getWebDriver();
+		WebElement table = driver.findElement(By.xpath('//table[@id="'+tableID+'"]/tbody'));
+		List<WebElement> rows = table.findElements(By.tagName('tr'));
+		if(expectedNumber == (rows.size()-2)) {
+			KeywordUtil.markPassed("Number of transaction verified")
+			return true;
+		}
+		KeywordUtil.markFailed("Number of transaction not matched")
+		return false
+	}
+	@Keyword
+	public void verifyMinValue(int minValue, String tableID) {
+		WebDriver driver = DriverFactory.getWebDriver();
+		WebElement table = driver.findElement(By.xpath('//table[@id="'+tableID+'"]/tbody'));
+		List<WebElement> rows = table.findElements(By.tagName('tr'));
+		int rowSize = rows.size();
+		for(int i=1; i< rowSize - 1;i++ ) {
+			List<WebElement> cells = rows.get(i).findElements(By.tagName('td'));
+
+			println(cells.size())
+
+			if(Integer.parseInt(cells.get(0).getText()) < minValue ) {
+
+				KeywordUtil.markFailed("Min amount not verified")
+				return;
+			}
+		}
+		KeywordUtil.markPassed("Min amount verified")
+	}
 
 
 	@Keyword
 	def clickMainOptions(String optionName) {
+		WebUI.verifyElementClickable(findTestObject('Common Objects/MainOption', ['optionName' : optionName]))
 		WebUI.click(findTestObject('Common Objects/MainOption', ['optionName' : optionName]))
+		WebUI.waitForPageLoad(2)
 	}
 
 	@Keyword
