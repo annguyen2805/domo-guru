@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2080ce5-2c1a-46b4-8040-61a0b9c6e298</testCaseGuid>
+   <variable>
+      <defaultValue>'katalon'</defaultValue>
+      <description></description>
+      <id>83a52566-033f-4067-9b47-30d0d2e1fa68</id>
+      <masked>false</masked>
+      <name>customName</name>
+   </variable>
+   <variable>
+      <defaultValue>'01/01/1999'</defaultValue>
+      <description></description>
+      <id>ab251795-7e42-484b-8907-21ab9319fd2e</id>
+      <masked>false</masked>
+      <name>dateBirth</name>
+   </variable>
+   <variable>
+      <defaultValue>'ha noi cau giay ho chi minh'</defaultValue>
+      <description></description>
+      <id>370541e1-1913-49f5-b900-020f9e12b247</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'ha noi'</defaultValue>
+      <description></description>
+      <id>70be5b1b-f774-4c60-aac8-f5458d8f7356</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'nghia hung'</defaultValue>
+      <description></description>
+      <id>2901d2e5-22f6-4d9f-8acf-8a8e477f99f0</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'565422'</defaultValue>
+      <description></description>
+      <id>32e0e41e-e6d2-453a-ae24-98a9dd09b0d7</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+   <variable>
+      <defaultValue>'0123456789'</defaultValue>
+      <description></description>
+      <id>dd75f4f1-8645-4300-9fbc-1b39cc248fe2</id>
+      <masked>false</masked>
+      <name>telephone</name>
+   </variable>
+   <variable>
+      <defaultValue>'annguyen23728@gmail.com'</defaultValue>
+      <description></description>
+      <id>4cec3f7c-cd50-4401-aad8-95c0056a7157</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'1111111'</defaultValue>
+      <description></description>
+      <id>aac6f059-5e68-4be9-9089-b0cecf960c9f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

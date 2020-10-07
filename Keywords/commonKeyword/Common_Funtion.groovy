@@ -6,11 +6,14 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
+import com.kms.katalon.core.webui.common.WebUiCommonHelper
+import org.openqa.selenium.WebElement
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
 import pageUI.CommonPageUI
 
 public class Common_Funtion {
+
 	public getDynamicTestObject(String xpathValue,String... values){
 		String xpath = String.format(xpathValue, values)
 		TestObject to = new TestObject("objectName")
@@ -21,6 +24,19 @@ public class Common_Funtion {
 		WebUiBuiltInKeywords.clearText(to)
 		WebUiBuiltInKeywords.sendKeys(to, value)
 	}
+	@Keyword
+	public void highlightElement(TestObject to) {
+		WebElement element = WebUiCommonHelper.findWebElement(to,30)
+		String originalStyle = element.getAttribute("style");
+		WebUI.executeJavaScript("arguments[0].setAttribute(arguments[1], arguments[2])", Arrays.asList(element), "style", "border: 5px solid red; border-style: dashed;");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		WebUI.executeJavaScript("arguments[0].setAttribute(arguments[1], arguments[2])", Arrays.asList(element), "style", originalStyle);
+	}
+
 
 	@Keyword
 	public verifyDynamicTextHeaderMessage(String messageText){
@@ -29,6 +45,7 @@ public class Common_Funtion {
 		String message= WebUiBuiltInKeywords.getText(to);
 		WebUiBuiltInKeywords.verifyElementText(to, message)
 	}
+
 	@Keyword
 	public String getDynamicTextTable(String rowName){
 		TestObject to = getDynamicTestObject(CommonPageUI.DYNAMIC_TABLE, rowName)

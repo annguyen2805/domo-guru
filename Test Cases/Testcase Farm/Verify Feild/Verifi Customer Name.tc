@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Payment</name>
+   <name>Verifi Customer Name</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>35f28d94-808f-4bbf-8bad-4a30671d6d82</testCaseGuid>
+   <testCaseGuid>71f46e1c-cf4a-4ea3-a7a9-4d06f155ba9f</testCaseGuid>
 </TestCaseEntity>

@@ -15,13 +15,13 @@
       <guid>0d2a0cae-4d69-47a8-8e2d-c25043406acf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Login</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4cbc87e3-38ce-4f12-8536-34ab9c5b84ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Creat New Customer</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/Creat New Customer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e4828ad3-ee5f-4d68-855c-596e69ba5f8c</id>
@@ -90,7 +90,7 @@
       <guid>d427e433-3d28-4791-b106-d451844f94d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Edit Customer</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/Edit Customer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c6a709d3-0a7b-412b-97b4-4460991683ce</id>
@@ -123,7 +123,7 @@
       <guid>423cb074-b9e2-4169-83c9-a5714e43770e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/New Account</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/New Account</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -135,7 +135,7 @@
       <guid>35028826-a816-48e3-b026-51bf9f4100f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Edit Account</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/Edit Account</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -147,18 +147,18 @@
       <guid>4fcaabd1-523d-4fa6-a95e-3f0ea52026c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Deposit</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/Deposit</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7615fcae-6be9-4f13-8b98-f26fd2f28376</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Withdrawall</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/Withdrawall</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>81c37249-79fb-4d2f-ab86-4aae9c3308e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payment/Fund Tranfer</testCaseId>
+      <testCaseId>Test Cases/Testcase Farm/payment/Fund Tranfer</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
