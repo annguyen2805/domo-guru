@@ -15,14 +15,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'common.clickMainOptions'('Mini Statement')
+CustomKeywords.'common.clickMainOptions'('Customised Statement')
 
 WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
 
+WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('fdate'), fromDate)
+
+WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('tdate'), toDate)
+
+WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('amountlowerlimit'), minimumValue)
+
+WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('numtransaction'), numOfTransaction)
+
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 
-String expectedDescription = description+'Tansfer To'+payeeAccount 
-if(CustomKeywords.'common.verifyTableCell'('Description', expectedDescription,'ministmt'))
+CustomKeywords.'common.verifyTransactionNumber'(Integer.parseInt(numOfTransaction), 'customstmt')
+
+CustomKeywords.'common.verifyMinValue'(Integer.parseInt(minimumValue), 'customstmt')
+
+String expectedDescription = description+'Tansfer To'+payeeAccount
+if(CustomKeywords.'common.verifyTableCell'('Description', expectedDescription,'customstmt'))
 {
-	CustomKeywords.'common.verifyTableCell'('Amount', amount,'ministmt')
+	CustomKeywords.'common.verifyTableCell'('Amount', amount,'customstmt')
+	CustomKeywords.'common.verifyTableCell'('Transaction Type', 't','customstmt')
 }
+

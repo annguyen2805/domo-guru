@@ -34,9 +34,9 @@ import java.lang.String
 import org.openqa.selenium.By as By
 
 public class common {
-
+	String basePath = new File("").getAbsolutePath();
 	@Keyword
-	String randomPassword() {
+	public static String randomPassword() {
 
 		Random random = new Random()
 		return 'duy@'+ random.nextInt(9999).toString()
@@ -47,8 +47,8 @@ public class common {
 		return 'apon'+ random.nextInt(9999).toString() +'@gmail.com'
 	}
 	@Keyword
-	public static void updatePassword(String text) {
-		FileInputStream file = new FileInputStream(new File('‪C:\\Users\\lqduy\\git\\demo-guru\\Excels\\Credentials.xlsx'));
+	public void updatePassword(String text) {
+		FileInputStream file = new FileInputStream(new File(basePath +"/Excels/Credentials.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -58,13 +58,13 @@ public class common {
 		sheet.getRow(1).createCell(1).setCellValue(text);
 
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\Credentials.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File(basePath +"/Excels/Credentials.xlsx"));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
-	public static void updateCustomerID(int text, int pin) {
-		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
+	public void updateCustomerID(int text, int pin) {
+		FileInputStream file = new FileInputStream(new File(basePath+'/Excels/CreateCustomer.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -78,17 +78,17 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File(basePath +'/Excels/CreateCustomer.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
-	public static void updateCustomerInfo(int customerID) {
-		FileInputStream customerFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
+	public void updateCustomerInfo(int customerID) {
+		FileInputStream customerFile = new FileInputStream(new File(basePath +'/Excels/CreateCustomer.xlsx'));
 		XSSFWorkbook workbook1 = new XSSFWorkbook(customerFile);
 		XSSFSheet sheet1 = workbook1.getSheetAt(0);
 
-		FileInputStream editFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\EditCustomer.xlsx'));
+		FileInputStream editFile = new FileInputStream(new File(basePath +'/Excels/EditCustomer.xlsx'));
 		XSSFWorkbook workbook2 = new XSSFWorkbook(editFile);
 		XSSFSheet sheet2 = workbook2.getSheetAt(0);
 
@@ -129,18 +129,18 @@ public class common {
 		}
 		customerFile.close();
 		editFile.close();
-		FileOutputStream outFile = new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
+		FileOutputStream outFile = new FileOutputStream(new File(basePath +'/Excels/CreateCustomer.xlsx'));
 		workbook1.write(outFile);
 		outFile.close();
 	}
 
 	@Keyword
-	public static void updateAccountInfo(int accountID){
-		FileInputStream accountFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+	public void updateAccountInfo(int accountID){
+		FileInputStream accountFile = new FileInputStream(new File(basePath +'/Excels/CreateNewAccount.xlsx'));
 		XSSFWorkbook workbook1 = new XSSFWorkbook(accountFile);
 		XSSFSheet sheet1 = workbook1.getSheetAt(0);
 
-		FileInputStream editFile = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\EditAccount.xlsx'));
+		FileInputStream editFile = new FileInputStream(new File(basePath +'/Excels/EditAccount.xlsx'));
 		XSSFWorkbook workbook2 = new XSSFWorkbook(editFile);
 		XSSFSheet sheet2 = workbook2.getSheetAt(0);
 
@@ -157,7 +157,7 @@ public class common {
 		}
 		accountFile.close();
 		editFile.close();
-		FileOutputStream outFile = new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+		FileOutputStream outFile = new FileOutputStream(new File(basePath +'/Excels/CreateNewAccount.xlsx'));
 		workbook1.write(outFile);
 		outFile.close();
 	}
@@ -165,8 +165,8 @@ public class common {
 
 
 	@Keyword
-	public static void updateAccountID(int text, int iniDeposit) {
-		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+	public void updateAccountID(int text, int iniDeposit) {
+		FileInputStream file = new FileInputStream(new File(basePath +'/Excels/CreateNewAccount.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -185,13 +185,13 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File(basePath +'/Excels/CreateNewAccount.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
-	public static void deleteAccountID(int accountID) {
-		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+	public void deleteAccountID(int accountID) {
+		FileInputStream file = new FileInputStream(new File(basePath +'/Excels/CreateNewAccount.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -202,13 +202,13 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateNewAccount.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File(basePath +'/Excels/CreateNewAccount.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
-	public static void deleteCustomerID(int customerID) {
-		FileInputStream file = new FileInputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
+	public void deleteCustomerID(int customerID) {
+		FileInputStream file = new FileInputStream(new File(basePath +'/Excels/CreateCustomer.xlsx'));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 
@@ -219,23 +219,29 @@ public class common {
 			}
 		}
 		file.close();
-		FileOutputStream outFile =new FileOutputStream(new File('C:\\Users\\lqduy\\git\\demo-guru\\Excels\\CreateCustomer.xlsx'));
+		FileOutputStream outFile =new FileOutputStream(new File(basePath +'/Excels/CreateCustomer.xlsx'));
 		workbook.write(outFile);
 		outFile.close();
 	}
 	@Keyword
-	public boolean verifyTableCell(int expectedCell, String expectedData,String tableID) {
+	public boolean verifyTableCell(String colName, String expectedData,String tableID) {
 		WebDriver driver = DriverFactory.getWebDriver();
 		WebElement table = driver.findElement(By.xpath('//table[@id="'+tableID+'"]/tbody'));
 		List<WebElement> rows = table.findElements(By.tagName('tr'));
-		int rowSize = rows.size();
-		println(rowSize)
-		for(int i=1; i< rowSize;i++ ) {
-			List<WebElement> cells = rows.get(i).findElements(By.tagName('td'));
-			if(cells.get(expectedCell-1).getText().equalsIgnoreCase(expectedData)) {
 
-				KeywordUtil.markPassed("Data Cell: " + expectedData + " Matched")
-				return true;
+		'Thay expected Cell thanh colName(e.g:Description) -> tim cot theo first row ->'
+
+
+		List<WebElement> headers = rows.get(0).findElements(By.tagName('th'));
+		for(int i =0; i< headers.size();i++) {
+			if(headers.get(i).getText().equalsIgnoreCase(colName)) {
+				for(int j = 1; j< rows.size()-1; j++) {
+					List<WebElement> cells = rows.get(j).findElements(By.tagName('td'));
+					if(cells.get(i).getText().equalsIgnoreCase(expectedData)) {
+						KeywordUtil.markPassed("Data Cell: " + expectedData + " Matched");
+						return true;
+					}
+				}
 			}
 		}
 		KeywordUtil.markFailedAndStop("Data Cell: " + expectedData + " Not matched")
@@ -247,6 +253,11 @@ public class common {
 		WebElement table = driver.findElement(By.xpath('//table[@id="'+tableID+'"]/tbody'));
 		List<WebElement> rows = table.findElements(By.tagName('tr'));
 		if(expectedNumber == (rows.size()-2)) {
+			KeywordUtil.markPassed("Number of transaction verified")
+			return true;
+		}
+		else if(expectedNumber > (rows.size()-2))
+		{
 			KeywordUtil.markPassed("Number of transaction verified")
 			return true;
 		}

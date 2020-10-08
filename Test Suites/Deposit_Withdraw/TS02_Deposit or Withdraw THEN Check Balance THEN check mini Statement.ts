@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS02_Deposit or Withdraw then Check Balance Successfully</name>
+   <name>TS02_Deposit or Withdraw THEN Check Balance THEN check mini Statement</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,7 +15,7 @@
       <guid>071dc69a-2ff2-40a0-9cb6-2b37095b5f8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_03_Deposit_Withdrawal/TC02_Deposit or Withdraw then Check Balance</testCaseId>
+      <testCaseId>Test Cases/Folder_03_Deposit_Withdrawal/TC02_Deposit or Withdraw THEN Check Balance THEN Check Mini Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0d3fe781-d20f-450a-a8bf-8fbb4b98dcca</id>
@@ -48,6 +48,18 @@
          <type>DATA_COLUMN</type>
          <value>description</value>
          <variableId>b68e707c-6625-44e0-b983-77d2a5b8b9ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61f09551-7bfe-477e-885b-71cd97d23ea2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d59b9a4-5439-4a88-931f-b4dba0df6cfd</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

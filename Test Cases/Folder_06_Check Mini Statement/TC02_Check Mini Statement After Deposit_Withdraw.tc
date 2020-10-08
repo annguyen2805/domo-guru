@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Check Custom Statement</name>
+   <name>TC02_Check Mini Statement After Deposit_Withdraw</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>78e0889a-b154-4378-bcf9-a7a682ae25b8</testCaseGuid>
+   <testCaseGuid>ed9630b1-5fde-4378-958d-cfe9859bfcec</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>2ec11273-54a7-4dee-bfb0-2fa802e3ff6a</id>
+      <id>a3d15baa-6d2a-4172-8eed-8e90177593bc</id>
       <masked>false</masked>
       <name>accountID</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>81d5fd28-2c97-480c-a9ca-bd795bc59796</id>
+      <id>5f40c084-1656-4f82-8bfd-590b2a1cdb9a</id>
       <masked>false</masked>
-      <name>fromDate</name>
+      <name>description</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>41d1f5dd-86b4-4df5-9535-842a39cbdfee</id>
+      <id>9e13cb93-66d4-4319-89d0-f189df1bd0b6</id>
       <masked>false</masked>
-      <name>toDate</name>
+      <name>transactionID</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>ee5f9ef0-bed9-41a5-8af8-3b93f69e5531</id>
+      <id>8b46e0dc-fafa-41ef-acc8-5c665e57cf00</id>
       <masked>false</masked>
-      <name>minimumValue</name>
+      <name>amount</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>23520ba4-1825-48d4-914e-63dc27abdf7d</id>
+      <id>6ca87482-aec7-409e-ae7c-282cd9b79529</id>
       <masked>false</masked>
-      <name>numOfTransaction</name>
+      <name>type</name>
    </variable>
 </TestCaseEntity>

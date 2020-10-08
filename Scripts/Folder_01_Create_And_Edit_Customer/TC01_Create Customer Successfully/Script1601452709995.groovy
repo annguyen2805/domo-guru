@@ -1,20 +1,8 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testobject.TestObject as TestObject
+import java.text.SimpleDateFormat
+
+import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.util.KeywordUtil
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'common.clickMainOptions'('New Customer')
 
@@ -53,16 +41,24 @@ WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Pin')), pi
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Mobile No.')), phone, false)
 WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Email')), mail, false)
 
+//Compare Gender
 if(WebUI.getText(CustomKeywords.'common.outputObject'('Gender')).startsWith(gender))
 {
-	KeywordUtil.markPassed("Matched")
+	KeywordUtil.markPassed("Gender Matched")
 }
 
-// input and output in different formats 			WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Birthdate')), dOB, false)
+//Compare date of birth
+SimpleDateFormat simpleDateFormat = new SimpleDateFormat("mm/dd/yyyy")
+Date date = simpleDateFormat.parse(dOB)
+simpleDateFormat.applyPattern("yyyy-mm-dd")
+String newDOB = simpleDateFormat.format(date)
+
+WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Birthdate')), newDOB, false,FailureHandling.CONTINUE_ON_FAILURE)
+
 
 println customerID
-
-CustomKeywords.'common.updateCustomerID'(customerID, Integer.parseInt(pin))
+return customerID.toString()
+//CustomKeywords.'common.updateCustomerID'(customerID, Integer.parseInt(pin))
 
 
 

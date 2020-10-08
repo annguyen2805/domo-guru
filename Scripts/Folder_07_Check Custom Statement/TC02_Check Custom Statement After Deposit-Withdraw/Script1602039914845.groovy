@@ -29,9 +29,29 @@ WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('numtransaction'), numOf
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 
+
+String miniType
+
+if(type.toString().equalsIgnoreCase('Deposit'))
+{
+	miniType = 'd'
+}
+else if(type.toString().equalsIgnoreCase('Withdrawal'))
+{
+	miniType = 'w'
+}
+
 CustomKeywords.'common.verifyTransactionNumber'(Integer.parseInt(numOfTransaction), 'customstmt')
 
 CustomKeywords.'common.verifyMinValue'(Integer.parseInt(minimumValue), 'customstmt')
+
+if(CustomKeywords.'common.verifyTableCell'('Transaction ID', transactionID, 'customstmt'))
+{
+	CustomKeywords.'common.verifyTableCell'('Description', description,'customstmt')
+	CustomKeywords.'common.verifyTableCell'('Amount', amount,'customstmt')
+	CustomKeywords.'common.verifyTableCell'('Transaction Type', miniType, 'customstmt')
+}
+
 
 
 

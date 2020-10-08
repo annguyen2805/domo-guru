@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3ea75ada-2ce5-4986-9603-f5bdebf12d9f</testSuiteGuid>
    <testCaseLink>
-      <guid>b732cde0-c180-4b76-ad83-f86966b36209</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Common/TC01_Login Successfully</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>111aee10-cdcc-4be8-979b-f6b63bd3bec1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

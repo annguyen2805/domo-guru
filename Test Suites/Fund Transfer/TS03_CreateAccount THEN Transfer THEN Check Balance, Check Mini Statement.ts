@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>-Create customer to get customerID.
+-Then create 2 accounts and get 2 accountID + current balances
+-Then account no.1 transfer money to account no.2
+-Then check both of accounts' balances
+-Then check mini statement of account no.1</description>
+   <name>TS03_CreateAccount THEN Transfer THEN Check Balance, Check Mini Statement</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>07d34168-5228-4665-9efd-1da3263fd57e</testSuiteGuid>
+   <testCaseLink>
+      <guid>4041de41-2e5e-4fb4-a541-271e2f3b1a8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Folder_05_Fund Transfer/TC03_Create Customer, 2 Accs THEN Transfer THEN Compare 2 Balance THEN Check Mini Statement</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Fund Transfer 02</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountType</value>
+         <variableId>c1ccacb9-bdbc-4b12-ad73-101d1191e9c0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iniDeposit</value>
+         <variableId>7a3d5d57-5207-4bcb-9d26-e4e2e5725b4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>amount</value>
+         <variableId>8ff5232e-80e1-40d8-845a-5bd612334fcd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>8aa56afd-a6f2-40ae-bc6d-2b3ff4f8ce54</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>c3e0a8bd-6d1b-43fe-8a05-52aae30670ed</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>gender</value>
+         <variableId>6aff82b3-7a78-4380-8eec-90493a50a7f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>dOB</value>
+         <variableId>8aaa1a5c-c326-438e-8ada-faf560ea76bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>a9747177-5120-494c-8199-77c237a507e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>78e385a8-ac2b-4eb6-85e4-4c12f527b0bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>state</value>
+         <variableId>dc9fb70c-4b7f-4a2a-a52c-42d261f0ce96</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pin</value>
+         <variableId>b7cb398f-80cc-4541-99a6-8cc1e36bc49a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
+         <variableId>495dfd9c-c5b2-4131-9dd6-35397d1f90a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>mail</value>
+         <variableId>17eaa44a-abff-4487-bd28-83e05e7c6bbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass</value>
+         <variableId>a0d90251-0d2e-4e2f-a55c-b9a457e58f05</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

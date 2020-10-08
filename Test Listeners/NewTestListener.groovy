@@ -36,10 +36,10 @@ class NewTestListener {
 	@BeforeTestSuite
 	def setUp() {
 		//WebUI.openBrowser("")
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\lqduy\\git\\demo-guru\\Others\\chromedriver.exe")
+		System.setProperty("webdriver.chrome.driver", "Others/chromedriver.exe")
 		ChromeOptions options = new ChromeOptions()
 		options.addArguments("start-maximized")
-		options.addExtensions(new File("C:\\Users\\lqduy\\git\\demo-guru\\Others\\extension_4_22_0_0.crx"))
+		options.addExtensions(new File("Others/extension_4_22_0_0.crx"))
 		DesiredCapabilities capa = new DesiredCapabilities()
 		capa.setCapability(ChromeOptions.CAPABILITY, options)
 		WebDriver driver = new ChromeDriver(capa)

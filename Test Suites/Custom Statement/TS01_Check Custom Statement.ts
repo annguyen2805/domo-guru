@@ -15,7 +15,7 @@
       <guid>40f3d28a-806a-4184-be1e-db065afdfa53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_07_Check Custom Statement/TC01_Check Custom Statement</testCaseId>
+      <testCaseId>Test Cases/Folder_07_Check Custom Statement/TC01_Check Custom Statement After Transfer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9806360d-e5ce-45c6-a4e6-88283269c787</id>
@@ -54,6 +54,24 @@
          <type>DATA_COLUMN</type>
          <value>numOfTransaction</value>
          <variableId>23520ba4-1825-48d4-914e-63dc27abdf7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2aa6001-8569-4286-8872-ecc9d2e27aff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a666918b-e5a0-4596-b2b1-5fa6ac3f083c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f26bf8e2-a0cb-4828-8d00-c7eac19b59ed</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

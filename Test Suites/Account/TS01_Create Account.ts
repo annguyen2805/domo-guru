@@ -43,11 +43,5 @@
          <value>iniDeposit</value>
          <variableId>bf0ebe41-b1e5-4c05-8418-66663fe08b61</variableId>
       </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>08d771a7-f00e-4973-af44-b7cbaba8cf73</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

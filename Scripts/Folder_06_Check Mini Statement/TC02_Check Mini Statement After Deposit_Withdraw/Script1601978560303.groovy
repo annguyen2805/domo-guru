@@ -21,8 +21,21 @@ WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 
-String expectedDescription = description+'Tansfer To'+payeeAccount 
-if(CustomKeywords.'common.verifyTableCell'('Description', expectedDescription,'ministmt'))
+
+String miniType
+
+if(type.toString().equalsIgnoreCase('Deposit'))
 {
+	miniType = 'd'
+}
+else if(type.toString().equalsIgnoreCase('Withdrawal'))
+{
+	miniType = 'w'
+}
+
+if(CustomKeywords.'common.verifyTableCell'('Transaction ID', transactionID, 'ministmt'))
+{
+	CustomKeywords.'common.verifyTableCell'('Description', description,'ministmt')
 	CustomKeywords.'common.verifyTableCell'('Amount', amount,'ministmt')
+	CustomKeywords.'common.verifyTableCell'('Transaction Type', miniType, 'ministmt')
 }
