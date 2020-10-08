@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verifi Customer Name</name>
+   <name>Verifi Address first charactor not blank</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>71f46e1c-cf4a-4ea3-a7a9-4d06f155ba9f</testCaseGuid>
+   <testCaseGuid>89b92c47-643d-49f2-9477-7ad4f8e26fc0</testCaseGuid>
 </TestCaseEntity>

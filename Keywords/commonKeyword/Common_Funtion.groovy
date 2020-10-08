@@ -8,6 +8,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
 import pageUI.CommonPageUI
@@ -23,18 +24,6 @@ public class Common_Funtion {
 		WebUiBuiltInKeywords.waitForElementVisible(to, GlobalVariable.timeOut)
 		WebUiBuiltInKeywords.clearText(to)
 		WebUiBuiltInKeywords.sendKeys(to, value)
-	}
-	@Keyword
-	public void highlightElement(TestObject to) {
-		WebElement element = WebUiCommonHelper.findWebElement(to,30)
-		String originalStyle = element.getAttribute("style");
-		WebUI.executeJavaScript("arguments[0].setAttribute(arguments[1], arguments[2])", Arrays.asList(element), "style", "border: 5px solid red; border-style: dashed;");
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		WebUI.executeJavaScript("arguments[0].setAttribute(arguments[1], arguments[2])", Arrays.asList(element), "style", originalStyle);
 	}
 
 
@@ -78,5 +67,18 @@ public class Common_Funtion {
 	public SelectDropDownAccountType(TestObject to, String value ){
 		WebUiBuiltInKeywords.waitForElementVisible(to, GlobalVariable.timeOut)
 		WebUiBuiltInKeywords.selectOptionByValue(to, value, false)
+	}
+
+	@Keyword
+	public void highlightElement(TestObject to) {
+		WebElement element = WebUiCommonHelper.findWebElement(to,30)
+		String originalStyle = element.getAttribute("style");
+		WebUI.executeJavaScript("arguments[0].setAttribute(arguments[1], arguments[2])", Arrays.asList(element), "style", "border: 5px solid red; border-style: dashed;");
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		WebUI.executeJavaScript("arguments[0].setAttribute(arguments[1], arguments[2])", Arrays.asList(element), "style", originalStyle);
 	}
 }
