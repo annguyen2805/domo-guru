@@ -19,7 +19,7 @@
       <guid>4041de41-2e5e-4fb4-a541-271e2f3b1a8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_05_Fund Transfer/TC03_Create Customer, 2 Accs THEN Transfer THEN Compare 2 Balance THEN Check Mini Statement</testCaseId>
+      <testCaseId>Test Cases/Test Farm/Flow 3/Create Customer, 2 Accs THEN Transfer THEN Compare 2 Balance THEN Check Mini Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>86d75723-0fb7-4adc-a19a-ac3c6cc44fef</id>

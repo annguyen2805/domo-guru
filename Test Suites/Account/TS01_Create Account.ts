@@ -15,7 +15,7 @@
       <guid>d6733ac8-7386-4b0d-a90a-c1dd194a6e55</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_02_Create_And_Edit_Account/TC01_1_Create New Account Successfully</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Account Pages/Create New Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>905e6bbb-1c15-4f54-8065-f78e5650554a</id>

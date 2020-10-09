@@ -15,7 +15,7 @@
       <guid>4410bbb7-e201-4edd-9ee4-7c1bb17c948c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_03_Deposit_Withdrawal/TC04_Create Customer, Account, Deposit or Withdraw THEN Check Balance THEN Check Mini and Custom Statement</testCaseId>
+      <testCaseId>Test Cases/Test Farm/Flow 2/Create Customer, Account, Deposit or Withdraw THEN Check Balance THEN Check Mini and Custom Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8a3b778d-e37d-42a6-8898-00e6eeb80987</id>

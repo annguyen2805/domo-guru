@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Query Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67a6b290-6ae9-4ec9-92a5-99b1c7bbcfca</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>189a2c64-74af-4c12-8cfb-9d316db32fe2</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+</TestCaseEntity>

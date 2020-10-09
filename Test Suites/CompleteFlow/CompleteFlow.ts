@@ -15,7 +15,7 @@
       <guid>fb52e711-6758-46e5-b1f1-0c1884df6275</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CompleteFlow</testCaseId>
+      <testCaseId>Test Cases/Test Farm/Complete Flow/CompleteFlow</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>76f6bc0f-8b55-499b-9a73-7340cd92aba9</id>
@@ -138,6 +138,42 @@
          <type>DATA_COLUMN</type>
          <value>type</value>
          <variableId>aa3c7cad-cff2-49ff-b673-a7c0643fca79</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7799076c-99ce-4722-8470-5d3a54697450</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4cb2b242-9115-4fde-a4f1-dc9b1a2ae126</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13d5a5ff-be6a-4a70-b885-aa86a6a8a207</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bf58e3bb-92c4-4848-86ed-bb931bb0cb4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5364a6a0-6e4c-48ba-9593-ca0bac89661e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b260cfc-5baa-4473-9b55-4a13cd7a0cee</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

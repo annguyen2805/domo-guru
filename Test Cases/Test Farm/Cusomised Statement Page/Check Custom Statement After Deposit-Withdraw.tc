@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check Custom Statement After Deposit-Withdraw</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b0db634-e5aa-485f-9771-c3564cd352a5</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0ffa1883-25cc-449b-9a3e-601e5886a53a</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>20f9a0e2-5ea6-4973-9c2f-4b0922a47192</id>
+      <masked>false</masked>
+      <name>fromDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8f287718-2a31-4a42-b954-741087e788e9</id>
+      <masked>false</masked>
+      <name>toDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2cbfe028-e3ba-47c5-bf94-e4c429e02d43</id>
+      <masked>false</masked>
+      <name>minimumValue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>598d95b9-7d00-4643-88f0-aaa0a6e1e2ac</id>
+      <masked>false</masked>
+      <name>numOfTransaction</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>971b04eb-34ac-4ffc-bbc9-a5c560fbd4e5</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>160ba731-8b6d-4f91-9784-a0eafd0b20a4</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>df22d831-6bcb-4763-b015-e93f70cf2598</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>acf6f443-0a85-4e86-b584-a2bf8ce40679</id>
+      <masked>false</masked>
+      <name>transactionID</name>
+   </variable>
+</TestCaseEntity>

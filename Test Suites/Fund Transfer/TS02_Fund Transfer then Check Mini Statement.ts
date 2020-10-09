@@ -15,7 +15,7 @@
       <guid>00a3f7b4-297a-4ab8-8f4c-193201b00638</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_05_Fund Transfer/TC02_Fund Transfer then Check Mini Statement</testCaseId>
+      <testCaseId>Test Cases/Test Farm/Flow 3/Fund Transfer then Check Mini Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>353857f1-3a11-4a11-86a8-049e05bc7295</id>

@@ -51,7 +51,7 @@ class NewTestListener {
 		
 		WebUI.navigateToUrl(GlobalVariable.url)
 		
-		WebUI.callTestCase(findTestCase('Common/TC01_Login Successfully'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Test Cases/Test Steps/Common/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@AfterTestSuite

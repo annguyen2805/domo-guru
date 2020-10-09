@@ -15,7 +15,7 @@
       <guid>7fe61694-468f-4d46-9504-b3bafdb8bf92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_03_Deposit_Withdrawal/TC01_Deposit or Withdraw successfully</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Deposit and Withdrawal Pages/Deposit or Withdraw</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bb895fa8-3460-4f7d-a231-f96eddc0edbd</id>

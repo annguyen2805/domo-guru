@@ -15,7 +15,7 @@
       <guid>071dc69a-2ff2-40a0-9cb6-2b37095b5f8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_03_Deposit_Withdrawal/TC02_Deposit or Withdraw THEN Check Balance THEN Check Mini Statement</testCaseId>
+      <testCaseId>Test Cases/Test Farm/Flow 2/Deposit or Withdraw THEN Check Balance THEN Check Mini Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0d3fe781-d20f-450a-a8bf-8fbb4b98dcca</id>

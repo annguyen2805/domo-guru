@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Successful Deposit or Withdrawal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ac33518-326d-466a-b044-31303a5871f5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d97a6c1-e2db-4030-8bae-1085e286772f</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3e76026-1bc1-43f7-98f8-32318418ccd5</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73c226e4-9c47-4e44-aeb0-8fce0ca03b00</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04fba619-2cc9-419a-bf8a-1eb9e9c8f4e5</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

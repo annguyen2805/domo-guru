@@ -15,7 +15,7 @@
       <guid>40f3d28a-806a-4184-be1e-db065afdfa53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_07_Check Custom Statement/TC01_Check Custom Statement After Transfer</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Custom Statement Page/Check Custom Statement After Transfer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9806360d-e5ce-45c6-a4e6-88283269c787</id>
@@ -25,24 +25,6 @@
          </iterationEntity>
          <testDataId>Data Files/Statement</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>accountID</value>
-         <variableId>2ec11273-54a7-4dee-bfb0-2fa802e3ff6a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>fromDate</value>
-         <variableId>81d5fd28-2c97-480c-a9ca-bd795bc59796</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>toDate</value>
-         <variableId>41d1f5dd-86b4-4df5-9535-842a39cbdfee</variableId>
-      </variableLink>
       <variableLink>
          <testDataLinkId>9806360d-e5ce-45c6-a4e6-88283269c787</testDataLinkId>
          <type>DATA_COLUMN</type>

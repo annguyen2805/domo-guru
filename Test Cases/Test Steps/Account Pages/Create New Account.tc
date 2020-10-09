@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca1b0ad5-1330-449f-ade5-8d88b6e42a03</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8b1e7f9b-a748-4269-b5c9-32051b780a04</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b971030c-9348-492c-aa7a-f911ee7c7c9f</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bf0ebe41-b1e5-4c05-8418-66663fe08b61</id>
+      <masked>false</masked>
+      <name>iniDeposit</name>
+   </variable>
+</TestCaseEntity>

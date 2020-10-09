@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Edit Successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b657a2ee-f076-469a-9c78-5d7c22e30e36</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e3fb2673-d048-4875-836f-4cf87dae3816</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24f103b5-28e6-45dc-aadb-ca2b98e73f36</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+</TestCaseEntity>

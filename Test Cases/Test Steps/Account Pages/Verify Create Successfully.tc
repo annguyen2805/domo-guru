@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Create Successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd05f898-5219-4454-a71e-f237f6f61318</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea1cb63c-0263-4ff6-9216-47ad0846c07d</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04fb9718-958b-40ee-83f9-d74a7f54c6c0</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3427d293-336a-4519-8f2c-e381444dabf1</id>
+      <masked>false</masked>
+      <name>iniDeposit</name>
+   </variable>
+</TestCaseEntity>

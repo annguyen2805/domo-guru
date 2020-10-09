@@ -15,7 +15,7 @@
       <guid>11f35413-6dc6-4ab3-8f7a-646fe7bd28b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_01_Create_And_Edit_Customer/TC01_Create Customer Successfully</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Customer Pages/Create Customer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f2b5f55f-ad0b-4149-8081-295e599ca8c7</id>

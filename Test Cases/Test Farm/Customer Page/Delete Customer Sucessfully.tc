@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete Customer Sucessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82ea483f-3a17-4f4e-ba0c-93203d225822</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>65046ccf-f773-4437-b73f-0898b42c32f0</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+</TestCaseEntity>

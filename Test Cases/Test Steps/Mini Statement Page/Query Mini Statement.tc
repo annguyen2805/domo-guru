@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Query Mini Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba239de0-7be1-46c9-b85e-7af6a17cd8a0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>18578cad-9022-4dd7-9983-1a5e1356982f</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+</TestCaseEntity>

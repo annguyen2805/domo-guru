@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Account Sucessfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1cdd4f3f-32b8-4491-90ea-80c4130f9c80</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>83d34ec0-ce52-401b-9465-bbc1e7da04cc</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4d005e32-54bf-46d7-b2a5-821b2fba79b9</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+</TestCaseEntity>

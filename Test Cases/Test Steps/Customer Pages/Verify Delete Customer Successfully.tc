@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Delete Customer Successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0b571af-587e-4a96-8806-9193e8512a65</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad5f5f29-0be0-4cb7-bacc-921ae14206aa</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

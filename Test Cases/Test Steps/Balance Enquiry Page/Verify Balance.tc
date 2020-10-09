@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be735f82-fd52-481e-942b-38a36ea88709</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16b97bad-5fd3-4e47-9151-130729cd175e</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>abdd23f4-05b6-4855-8252-1e4af3191904</id>
+      <masked>false</masked>
+      <name>expectedBalance</name>
+   </variable>
+</TestCaseEntity>

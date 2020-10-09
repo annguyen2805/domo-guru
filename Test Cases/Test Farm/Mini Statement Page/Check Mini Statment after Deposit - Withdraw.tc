@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check Mini Statment after Deposit - Withdraw</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2de1b514-ba0b-45d1-86f0-7d210013375d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>77eae5c3-d527-40ca-994a-8376efe2240a</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>df5df8f8-ed53-4337-9de0-9b24ee5acdca</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6274cfa1-cff4-42d1-ac0a-31fc9168ca2f</id>
+      <masked>false</masked>
+      <name>transactionID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5d507fde-bd69-44df-91ab-068dadc47701</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4eb5dbce-66c2-42e7-8eae-da109af9f8be</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+</TestCaseEntity>

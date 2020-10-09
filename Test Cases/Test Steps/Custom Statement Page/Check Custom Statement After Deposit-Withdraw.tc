@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Check Custom Statement After Deposit-Withdraw</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>100cf5f0-6eab-46cc-b795-a88471ca2174</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c0cd046a-1d65-4efb-b7fb-72d5f783c8a8</id>
+      <masked>false</masked>
+      <name>minimumValue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1189323c-84f9-4ea2-9ce7-a478acad95a6</id>
+      <masked>false</masked>
+      <name>numOfTransaction</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e0a7e585-6cd9-40ec-a4b8-d4a465dfcac2</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c9b67fe1-db80-4d77-a10f-65b52a9ca4d4</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>959f7969-c579-4a93-b688-c2074adfc2c3</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>71548f6c-4d68-4145-bf22-36dad8ba22e1</id>
+      <masked>false</masked>
+      <name>transactionID</name>
+   </variable>
+</TestCaseEntity>

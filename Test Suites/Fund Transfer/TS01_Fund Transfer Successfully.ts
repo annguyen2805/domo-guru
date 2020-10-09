@@ -15,7 +15,7 @@
       <guid>4dc7bb6f-1262-41bf-8090-b2dcd27c24b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_05_Fund Transfer/TC01_Fund Transfer Successfully</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Fund Transfer Page/Fund Transfer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4efb6657-4168-400a-8935-40d081b5ad45</id>

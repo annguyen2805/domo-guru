@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Query Custom Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a598322c-d305-48cb-86b6-c5ac524df150</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>44ff2a97-429e-4195-ad45-69d194762441</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3d881050-6739-409d-9a42-fff10f81e285</id>
+      <masked>false</masked>
+      <name>fromDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2a266cda-3d9c-4e5c-b9d1-0104c7950a49</id>
+      <masked>false</masked>
+      <name>toDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b79d9f3a-7d72-4b18-b74b-92dab88e02d4</id>
+      <masked>false</masked>
+      <name>minimumValue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e1ccc934-2f8a-48ee-ae80-544d5f71ac9a</id>
+      <masked>false</masked>
+      <name>numOfTransaction</name>
+   </variable>
+</TestCaseEntity>

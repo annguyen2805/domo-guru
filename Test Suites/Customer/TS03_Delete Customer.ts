@@ -15,7 +15,7 @@
       <guid>3dd098ba-0fe8-4eff-98ce-a169cef2f67c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder_01_Create_And_Edit_Customer/TC03_Delete Customer Successfully</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Customer Pages/Delete Customer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b51b430e-7e62-45f4-a6ac-08bc08874089</id>
