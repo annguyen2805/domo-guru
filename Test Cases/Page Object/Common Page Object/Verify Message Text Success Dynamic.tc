@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Message Text Success Dynamic</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a04a3ec-9313-4ab1-af2d-1b344815d736</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fb2b3ca-60ba-43ec-8f82-3c03eb522e34</id>
+      <masked>false</masked>
+      <name>TextHeader</name>
+   </variable>
+</TestCaseEntity>

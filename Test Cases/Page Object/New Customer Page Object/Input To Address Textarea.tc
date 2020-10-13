@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input To Address Textarea</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8820ee0-fc6e-4656-9406-9af29e0c5d90</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dfe83fd0-8868-4be3-836a-ed3143dfe488</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

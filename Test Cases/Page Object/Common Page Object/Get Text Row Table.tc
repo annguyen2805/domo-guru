@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Text Row Table</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ba11b74-2642-4197-aec5-d00fc4c8d9c1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f556fbb-c7bf-4a3b-adcb-b459f35793f1</id>
+      <masked>false</masked>
+      <name>nameRow</name>
+   </variable>
+</TestCaseEntity>

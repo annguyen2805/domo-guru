@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input To Date Of Birth Textbox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a9ba863-15f1-44c2-a1b3-337cf8f73483</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>080024c6-d9ef-47fd-ac05-442b21f7b770</id>
+      <masked>false</masked>
+      <name>dateOfBirth</name>
+   </variable>
+</TestCaseEntity>

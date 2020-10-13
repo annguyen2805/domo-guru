@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Danamic Textbox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b55fa1d8-819b-4488-ad8d-91adedde3f28</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b33c486d-5108-4569-9a16-8bd2523db40b</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5eb5660-6cca-4847-96a3-d02a9f2426d6</id>
+      <masked>false</masked>
+      <name>atributeValue</name>
+   </variable>
+</TestCaseEntity>

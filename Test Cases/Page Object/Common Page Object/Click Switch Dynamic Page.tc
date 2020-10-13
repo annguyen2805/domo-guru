@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Switch to Page by Test Object</description>
+   <name>Click Switch Dynamic Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5397913c-b674-42eb-89a7-3ab739cfebf6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3dd71681-c3cd-4f67-8d18-fac11f63fda2</id>
+      <masked>false</masked>
+      <name>namePage</name>
+   </variable>
+</TestCaseEntity>
