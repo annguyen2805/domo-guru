@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('Password').getValue(1, 1)</initValue>
+      <initValue>findTestData('Happy Cases/Password').getValue(1, 1)</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestData('Password').getValue(2, 1)</initValue>
+      <initValue>findTestData('Happy Cases/Password').getValue(2, 1)</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

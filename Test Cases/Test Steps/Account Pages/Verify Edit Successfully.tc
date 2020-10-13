@@ -17,6 +17,6 @@
       <description></description>
       <id>24f103b5-28e6-45dc-aadb-ca2b98e73f36</id>
       <masked>false</masked>
-      <name>accountType</name>
+      <name>accountType_edit</name>
    </variable>
 </TestCaseEntity>

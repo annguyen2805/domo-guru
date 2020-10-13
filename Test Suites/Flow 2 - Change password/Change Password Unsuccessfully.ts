@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Change Password Unsuccessfully</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>3d58c497-68e9-4025-b593-0d808bc2ba83</testSuiteGuid>
+   <testCaseLink>
+      <guid>d12f7340-7312-4a99-9211-1d967cba9d30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Farm/Flow 2 - Changing password/Change Password Fail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>331744df-677a-4f41-8bf2-e25ea76eecb6</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Unhappy Cases/Credential_Custom</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>oldPassword</value>
+         <variableId>1a7e77a7-498e-4579-89a3-9db2804e1d9b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>newPassword</value>
+         <variableId>06ee30a2-ff94-4715-bf86-3aa48d7e65bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>confirmPassword</value>
+         <variableId>fdbc51a7-f9df-4c7c-bdef-dab01deb7abf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>101e9181-60bf-416a-b172-08ad844e36dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedMessage</value>
+         <variableId>cbab6ab6-8e90-4746-96d0-632987a8fc68</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

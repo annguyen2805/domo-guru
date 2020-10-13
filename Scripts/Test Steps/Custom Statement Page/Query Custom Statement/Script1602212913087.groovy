@@ -27,6 +27,7 @@ WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('amountlowerlimit'), min
 
 WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('numtransaction'), numOfTransaction)
 
+WebUI.delay(5)
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 
 

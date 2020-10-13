@@ -17,5 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Delete Customer'), [('customerID') : customerID], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Verify Delete Customer Successfully'), [('customerID') : customerID], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Verify Delete Customer Successfully'), [('customerID') : customerID], 
+    FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create, Edit, Delete Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>166e0e65-c95d-4eea-9340-24ccffc9cabc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>72798d0b-f94b-4cdd-b9e1-8243cd097c58</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>13ab8370-d080-4391-a783-3c8f5b0cf723</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>769fbcf3-4d8c-4623-8594-50c2579c0563</id>
+      <masked>false</masked>
+      <name>iniDeposit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c0ea432f-80c4-4160-afef-c6743d4ad517</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>397fdb39-32dd-4f74-91bc-4e1a816b7928</id>
+      <masked>false</masked>
+      <name>accountType_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>510b8234-48fe-4aaf-b8e5-ad22cc070477</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a6ba2a6b-7edf-4295-bee2-402bcfa6f6e7</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cad6fea5-7960-4e7a-8153-c218e3358c6d</id>
+      <masked>false</masked>
+      <name>dOB</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>becf2d9a-41bb-4025-ad05-568cddca702d</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b1d43638-e524-48ea-a7ee-a735dc9ca6f4</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4979f124-c19d-4a77-80c6-cdc5c06afea1</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a94beeb3-c503-47b9-8c10-20a1789f994c</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a02bb9e5-b297-4dc3-9396-fc3bfee9e902</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>14efcf84-1257-4df9-97a9-f145fc8efa25</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Password').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>71d9b62a-0162-4ed7-b3d9-74077f848e08</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

@@ -256,8 +256,7 @@ public class common {
 			KeywordUtil.markPassed("Number of transaction verified")
 			return true;
 		}
-		else if(expectedNumber > (rows.size()-2))
-		{
+		else if(expectedNumber > (rows.size()-2)) {
 			KeywordUtil.markPassed("Number of transaction verified")
 			return true;
 		}
@@ -296,6 +295,15 @@ public class common {
 	TestObject inputFieldByName(String nameValue) {
 		return findTestObject('Common Input Fields/InputFieldByName',['inputName': nameValue])
 	}
+	@Keyword
+	def sendKeys(TestObject to, String input) {
+		if(input.equals('<blank>')) {
+			input = ''
+		}
+		WebUI.clearText(to)
+		WebUI.sendKeys(to, input)
+		
+	}
 
 	@Keyword
 	TestObject inputFieldByType(String typeValue) {
@@ -321,5 +329,12 @@ public class common {
 	@Keyword
 	TestObject messageNoti(String messageContent) {
 		return findTestObject('Object Repository/Common Objects/NotificationMessage',['messageContent': messageContent])
+	}
+	@Keyword
+	String getMessageText(String idNum) {
+		if(idNum.equalsIgnoreCase('<blank>')) {
+			idNum = ''
+		}
+		return WebUI.getText(findTestObject('Object Repository/Common Message/MessageByID',['number': idNum]))
 	}
 }

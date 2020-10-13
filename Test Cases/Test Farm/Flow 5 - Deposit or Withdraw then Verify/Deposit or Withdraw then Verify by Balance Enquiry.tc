@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Deposit or Withdraw then Verify by Balance Enquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>086b3cfd-a6d8-4f9c-a991-c436de58f337</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8ec2609d-4b8f-4485-aec2-2ee450fad25a</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>51f0173f-c2c5-4505-93d7-fdc6dbdcd03d</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>248a96e0-1bc9-4818-8969-df05d37f5ae4</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7165191b-8d17-41af-b018-5bac8efb913b</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea7c4e5d-4dd2-48e3-bac1-008e9e22ffa9</id>
+      <masked>false</masked>
+      <name>expectedBalance</name>
+   </variable>
+</TestCaseEntity>

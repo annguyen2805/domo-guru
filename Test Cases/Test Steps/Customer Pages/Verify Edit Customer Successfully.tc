@@ -17,41 +17,41 @@
       <description></description>
       <id>a27ae511-f738-4784-84d0-5a6c33e64c21</id>
       <masked>false</masked>
-      <name>address</name>
+      <name>address_edit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>ac5fe6c5-580c-4ab0-8c27-f4dcdd944e24</id>
       <masked>false</masked>
-      <name>city</name>
+      <name>city_edit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>7f9c9cc4-496d-436c-a810-728aff365115</id>
       <masked>false</masked>
-      <name>state</name>
+      <name>state_edit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>ae7738bd-e8bc-4c6d-805f-5f75e757c58c</id>
       <masked>false</masked>
-      <name>pin</name>
+      <name>pin_edit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>854ae461-5c7c-43d3-9699-9e4bba59e585</id>
       <masked>false</masked>
-      <name>phone</name>
+      <name>phone_edit</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>fd0f40d9-a960-4be4-b843-9bcbdea4fc6c</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>mail_edit</name>
    </variable>
 </TestCaseEntity>

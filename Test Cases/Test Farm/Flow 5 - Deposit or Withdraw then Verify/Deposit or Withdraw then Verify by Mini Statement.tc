@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Deposit or Withdraw then Verify by Mini Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68487d17-f049-4065-a53a-0fd9c560a6d7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>920d1895-b0a4-4459-9b9a-110a3d3b66d0</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>43592295-5372-4aef-979d-13054f9f8801</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>53be9b56-69f5-402d-8ef3-298d63ac3fb6</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>52c11e4a-2a10-4b98-9e3d-e56d2fc075e3</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>03772667-f78f-461c-9e15-5a145df2d850</id>
+      <masked>false</masked>
+      <name>transactionID</name>
+   </variable>
+</TestCaseEntity>

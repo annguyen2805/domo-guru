@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transfer then Verify by Mini Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8095669f-0bc9-4928-83dc-6f61b93fa814</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4cc651c1-6913-446c-9b05-b4ebab29a906</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9189e7c4-8fba-4948-adcc-54abadc267ae</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6ed6cd1f-208d-43af-a303-ec7508d4ea84</id>
+      <masked>false</masked>
+      <name>iniDeposit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>24eeaa90-2dc4-4847-a077-43183561b4b5</id>
+      <masked>false</masked>
+      <name>payerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3bf25396-cd49-4650-aca3-e537fd2d78e4</id>
+      <masked>false</masked>
+      <name>payeeAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a210d31a-8ace-4212-b858-d5fcf61d3400</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b59df2b0-e318-43a7-8e93-30210eb0e528</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6232d6e7-ca58-4caf-be47-22c7b0acc0dd</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+</TestCaseEntity>

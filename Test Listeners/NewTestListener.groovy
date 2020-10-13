@@ -47,7 +47,7 @@ class NewTestListener {
 		DriverFactory.changeWebDriver(driver)
 		WebUI.closeWindowIndex(1)
 		WebUI.switchToWindowIndex(0, FailureHandling.STOP_ON_FAILURE)
-		WebUI.delay(5)
+		WebUI.delay(4)
 		
 		WebUI.navigateToUrl(GlobalVariable.url)
 		

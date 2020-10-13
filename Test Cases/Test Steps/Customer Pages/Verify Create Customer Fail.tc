@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Create Customer Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed7c2d7e-f5e2-4909-a35e-1cd9da6ec230</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9e18bb97-a2d4-4d4c-97c0-70c595bc3953</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1ffa929e-8005-4056-acbb-c9815eccdf69</id>
+      <masked>false</masked>
+      <name>expectedMessage</name>
+   </variable>
+</TestCaseEntity>

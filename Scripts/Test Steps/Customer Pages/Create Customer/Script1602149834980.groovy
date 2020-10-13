@@ -17,28 +17,29 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
+
 CustomKeywords.'common.clickMainOptions'('New Customer')
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('name'), name)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('name'), name)
 
 WebUI.click(CustomKeywords.'common.inputFieldByValue'(gender) //m or f
     )
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('dob'), dOB)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('dob'), dOB)
 
-WebUI.sendKeys(CustomKeywords.'common.textAreaByName'('addr'), address)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.textAreaByName'('addr'), address)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('city'), city)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('city'), city)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('state'), state)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('state'), state)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('pinno'), pin)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('pinno'), pin)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('telephoneno'), phone)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('telephoneno'), phone)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('emailid'), mail)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('emailid'), mail)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('password'), pass)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('password'), pass)
 
 WebUI.delay(1)
 

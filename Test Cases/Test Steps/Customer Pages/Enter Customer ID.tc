@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter Customer ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d31b3de-145f-4858-925d-eb20586dba7f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6ce3b7dc-e913-48a8-9bb9-388c68cd88b7</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transfer then Verify by Balance Enquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fba17049-643a-40fd-aca3-1292bc73afd7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>28a9ab2a-d4de-4859-9dbd-a6b818d50949</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9b5d516d-1157-4463-8a26-4a155903fe48</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>af596ab9-bf31-4cb1-a9a1-d3fdaf3e8d24</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a9720833-faf1-4523-b27c-c954cc4db477</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>28d8f267-0f28-4a0c-b783-bb2a536b2fd9</id>
+      <masked>false</masked>
+      <name>iniDeposit</name>
+   </variable>
+</TestCaseEntity>

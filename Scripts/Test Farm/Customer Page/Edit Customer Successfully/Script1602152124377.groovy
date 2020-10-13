@@ -15,9 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Edit Customer'), [('customerID') : customerID, ('address') : address, ('city') : city
-        , ('state') : state, ('pin') : pin, ('phone') : phone, ('mail') : mail], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Enter Customer ID'), [('customerID') : customerID], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Verify Edit Customer Successfully'), [('customerID') : customerID, ('address') : address
-        , ('city') : city, ('state') : state, ('pin') : pin, ('phone') : phone, ('mail') : mail], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Edit Customer'), [('customerID') : customerID, ('address_edit') : address_edit
+        , ('city_edit') : city_edit, ('state_edit') : state_edit, ('pin_edit') : pin_edit, ('phone_edit') : phone_edit, ('mail_edit') : mail_edit], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Steps/Customer Pages/Verify Edit Customer Successfully'), [('customerID') : customerID
+        , ('address_edit') : address_edit, ('city_edit') : city_edit, ('state_edit') : state_edit, ('pin_edit') : pin_edit
+        , ('phone_edit') : phone_edit, ('mail_edit') : mail_edit], FailureHandling.STOP_ON_FAILURE)
 

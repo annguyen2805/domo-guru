@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Edit Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f859a178-e8c5-4bb7-8324-9e3412ee6ea7</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>57a0de72-7d74-4a28-8cf8-8d2eea45cc6a</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>fb081f2d-383d-44f3-8972-fc24e35ed374</id>
+      <masked>false</masked>
+      <name>expectedMessage</name>
+   </variable>
+</TestCaseEntity>

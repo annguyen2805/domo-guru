@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Transfer then Verify by Custom Statement</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e4fa712-5ddf-4fa3-95bc-85b436237c86</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4c34e6e5-e3e0-4e6d-8f83-bceaf8402199</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0fabf6f9-8a19-4c76-bb94-55880144706f</id>
+      <masked>false</masked>
+      <name>accountType</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c8a24389-4259-48f9-88df-56465280b484</id>
+      <masked>false</masked>
+      <name>iniDeposit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>26e34ff7-f717-4b7a-8003-d62e64c09375</id>
+      <masked>false</masked>
+      <name>payerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>39a85ab4-7b2f-490d-a85e-b02d86868f4e</id>
+      <masked>false</masked>
+      <name>payeeAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8b633e60-5a3c-4a15-944c-59806b847698</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d4379d2f-5a54-4f63-8eae-0d485422cbbc</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>03aaff83-dcb6-477f-af94-53c3ca1555a1</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a22860ea-ff29-4d29-8f0d-734e3be8923d</id>
+      <masked>false</masked>
+      <name>fromDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1aa36ecb-5dad-4d3f-9eec-ce9414848636</id>
+      <masked>false</masked>
+      <name>toDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d25af197-a382-4715-8602-c4dadec9d867</id>
+      <masked>false</masked>
+      <name>minimumValue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d50503ee-c195-454c-92c4-90481eeed350</id>
+      <masked>false</masked>
+      <name>numOfTransaction</name>
+   </variable>
+</TestCaseEntity>

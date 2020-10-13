@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Withdraw Fail</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>41bb76f9-2e10-40c8-b061-e6377e349102</testSuiteGuid>
+   <testCaseLink>
+      <guid>83f4f7bd-bcbe-4343-9eef-c268e2f1f485</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Farm/Deposit - Withdraw Page/Withdraw Fail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ba9da60b-6f1e-4e7a-be49-1e8e3da74489</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Unhappy Cases/Withdraw Fail</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ba9da60b-6f1e-4e7a-be49-1e8e3da74489</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>type</value>
+         <variableId>b65220f0-0903-4366-87ee-d0ef3066641f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ba9da60b-6f1e-4e7a-be49-1e8e3da74489</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountID</value>
+         <variableId>ce0f13d7-81ad-469f-a2eb-f9af7247285c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ba9da60b-6f1e-4e7a-be49-1e8e3da74489</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>amount</value>
+         <variableId>51ec456e-4442-46de-b77d-b9ec7a84a252</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ba9da60b-6f1e-4e7a-be49-1e8e3da74489</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>7d874f24-6e98-4068-87a1-f4f7d11984d5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

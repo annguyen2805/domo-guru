@@ -15,43 +15,43 @@
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>68151a74-6edc-4aa9-bdfb-48c25e024f14</id>
+      <id>12402a99-1034-46d0-9627-b5cecd7834ee</id>
       <masked>false</masked>
-      <name>address</name>
+      <name>address_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>9ef1931f-24ae-4aaa-ba72-f649af84f3f4</id>
+      <id>3f548d97-e59f-4f1a-9415-86fa46e03117</id>
       <masked>false</masked>
-      <name>city</name>
+      <name>city_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>66819742-ee39-4a3a-97a5-e23f1bbd718e</id>
+      <id>9816b25e-3870-420c-8689-613646e41673</id>
       <masked>false</masked>
-      <name>state</name>
+      <name>state_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>7276b3c4-e027-44b2-8dd4-93b8cc0d8d58</id>
+      <id>7d71800b-261b-4442-a850-d41ae56e931b</id>
       <masked>false</masked>
-      <name>pin</name>
+      <name>pin_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>dc89cfc5-07e0-4453-b9aa-a5148d7735d8</id>
+      <id>0fdd0861-e716-418e-8b54-0b4423649ed1</id>
       <masked>false</masked>
-      <name>phone</name>
+      <name>phone_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>9611354e-f727-4fe3-ae98-01dcb87c472e</id>
+      <id>4f89dffa-f058-4d5b-9e32-f11c24894ef0</id>
       <masked>false</masked>
-      <name>mail</name>
+      <name>mail_edit</name>
    </variable>
 </TestCaseEntity>

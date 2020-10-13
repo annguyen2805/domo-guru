@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Deposit or Withdraw then Verify By Mini Statement</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>63b6db2c-7b14-4492-806b-ecd2051f446b</testSuiteGuid>
+   <testCaseLink>
+      <guid>96bb0efd-d883-4e93-8207-45b80f04d37e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Farm/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Mini Statement</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>006e5598-438f-4c33-8a92-21c42c120a94</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Deposit-Withdrawal</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>006e5598-438f-4c33-8a92-21c42c120a94</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>type</value>
+         <variableId>920d1895-b0a4-4459-9b9a-110a3d3b66d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>006e5598-438f-4c33-8a92-21c42c120a94</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountID</value>
+         <variableId>43592295-5372-4aef-979d-13054f9f8801</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>006e5598-438f-4c33-8a92-21c42c120a94</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>amount</value>
+         <variableId>53be9b56-69f5-402d-8ef3-298d63ac3fb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>006e5598-438f-4c33-8a92-21c42c120a94</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>52c11e4a-2a10-4b98-9e3d-e56d2fc075e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>03772667-f78f-461c-9e15-5a145df2d850</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

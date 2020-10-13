@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 String expectedDescription = description+'Tansfer To'+payeeAccount
-
+WebUI.delay(3)
 CustomKeywords.'common.verifyTransactionNumber'(Integer.parseInt(numOfTransaction), 'customstmt')
 
 CustomKeywords.'common.verifyMinValue'(Integer.parseInt(minimumValue), 'customstmt')

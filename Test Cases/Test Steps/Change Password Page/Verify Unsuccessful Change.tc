@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Unsuccessful Change</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3dc65cd-a8e2-462b-83de-33b6d54738e6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>82ec2340-a842-4fdc-9a6b-45641b852178</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f6fe5f91-0de7-4a2b-86aa-9f784f1562c9</id>
+      <masked>false</masked>
+      <name>expectedMessage</name>
+   </variable>
+</TestCaseEntity>

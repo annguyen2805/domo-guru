@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Incorrect cusomterID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46354165-9c04-4a0f-a505-f394564d37b6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bbd14310-4dc2-449c-8b71-9479d03624ee</id>
+      <masked>false</masked>
+      <name>expectedMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>39f999be-a583-4755-aee3-b9b90b2a3ca7</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>

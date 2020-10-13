@@ -11,7 +11,7 @@ WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 
-WebUI.selectOptionByValue(CustomKeywords.'common.selectByName'('a_type'), accountType, false)
+WebUI.selectOptionByValue(CustomKeywords.'common.selectByName'('a_type'), accountType_edit, false)
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('Submit'))
 

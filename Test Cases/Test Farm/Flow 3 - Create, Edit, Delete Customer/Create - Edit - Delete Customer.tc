@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create - Edit - Delete Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1c5a894-df74-4afd-bc70-e07d10504feb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>101f0bf7-5331-4e73-a082-3b4668f2c612</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e42ac1e1-e95b-4cb0-8c4e-7f27b094414d</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>91e96ed0-ae72-4897-aa61-6a36e7d3409a</id>
+      <masked>false</masked>
+      <name>dOB</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>eebe34d3-cf64-4cac-a67a-785a51cd5929</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>91ad9deb-cee2-4d20-8b59-1a1cb5601e52</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f0d24c3e-a968-4b9a-ab95-7510f293f60e</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>648ff5ae-ddb6-4675-b9b5-a3a193c9a1d4</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>42eb5f6f-a120-4df0-9ef2-a413dab9ed9e</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>31afd6ca-b28d-4ac9-9821-72603cf88572</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Password').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b4b1ac11-acf1-4f3e-956e-171bd75a303b</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9bb30362-1bd5-4bdd-a1c7-16d431b36b06</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>63b59a9b-fb6b-4eab-ae09-b7183c9eafae</id>
+      <masked>false</masked>
+      <name>address_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>51db1fe8-63ca-4d88-aab0-8e02fc3291c7</id>
+      <masked>false</masked>
+      <name>city_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>39e0a16b-26fc-4ab8-a65c-10c33a40cd65</id>
+      <masked>false</masked>
+      <name>state_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4aeb9cb0-6f78-4086-95a2-9dafe5b8866c</id>
+      <masked>false</masked>
+      <name>pin_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>776e5766-42c5-4bb8-bc80-c181bca49b24</id>
+      <masked>false</masked>
+      <name>phone_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>eaebd0a4-6f92-467c-9405-28acfafbb83b</id>
+      <masked>false</masked>
+      <name>mail_edit</name>
+   </variable>
+</TestCaseEntity>

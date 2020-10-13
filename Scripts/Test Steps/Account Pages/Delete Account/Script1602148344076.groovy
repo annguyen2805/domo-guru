@@ -22,6 +22,10 @@ WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 
 WebUI.waitForAlert(5)
+if(WebUI.verifyMatch(WebUI.getAlertText(), 'Do you really want to delete this Account?', false))
+{
+	WebUI.delay(3)
+	WebUI.acceptAlert()
+}
 
-WebUI.acceptAlert()
 

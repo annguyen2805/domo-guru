@@ -18,35 +18,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'common.clickMainOptions'('Edit Customer')
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('cusid'), customerID)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.textAreaByName'('addr'), address_edit)
 
-WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('city'), city_edit)
 
-WebUI.clearText(CustomKeywords.'common.textAreaByName'('addr'))
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('state'), state_edit)
 
-WebUI.sendKeys(CustomKeywords.'common.textAreaByName'('addr'), address)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('pinno'), pin_edit)
 
-WebUI.clearText(CustomKeywords.'common.inputFieldByName'('city'))
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('telephoneno'), phone_edit)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('city'), city)
-
-WebUI.clearText(CustomKeywords.'common.inputFieldByName'('state'))
-
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('state'), state)
-
-WebUI.clearText(CustomKeywords.'common.inputFieldByName'('pinno'))
-
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('pinno'), pin)
-
-WebUI.clearText(CustomKeywords.'common.inputFieldByName'('telephoneno'))
-
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('telephoneno'), phone)
-
-WebUI.clearText(CustomKeywords.'common.inputFieldByName'('emailid'))
-
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('emailid'), mail)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('emailid'), mail_edit)
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 

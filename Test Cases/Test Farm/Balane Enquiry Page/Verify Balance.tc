@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d9ce432-7878-45b2-b80a-a9b8e51ae143</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>66f6a20e-6b26-42fd-901a-ba81c66a8885</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2c069046-ab45-42eb-a701-f6cadd2774c6</id>
+      <masked>false</masked>
+      <name>expectedBalance</name>
+   </variable>
+</TestCaseEntity>

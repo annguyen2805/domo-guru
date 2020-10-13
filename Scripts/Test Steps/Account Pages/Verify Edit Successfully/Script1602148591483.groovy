@@ -18,7 +18,7 @@ catch (Exception e) {
 	
 	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Account ID')), accountID, false)
 	
-	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Account Type')), accountType, false)
+	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Account Type')), accountType_edit, false)
 	
 	KeywordUtil.markPassed('Edit successfully')
 }

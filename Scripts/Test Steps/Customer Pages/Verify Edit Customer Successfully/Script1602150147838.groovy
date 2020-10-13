@@ -29,17 +29,17 @@ catch (Exception e) {
 
 	println('Edit successfully')
 
-	CustomKeywords.'common.updateCustomerInfo'(Integer.parseInt(customerID))
+	//CustomKeywords.'common.updateCustomerInfo'(Integer.parseInt(customerID))
 
-	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Address')), address, false)
+	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Address')), address_edit, false)
 
-	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('City')), city, false)
+	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('City')), city_edit, false)
 
-	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('State')), state, false)
+	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('State')), state_edit, false)
 
-	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Pin')), pin, false)
+	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Pin')), pin_edit, false)
 
-	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Mobile No.')), phone, false)
+	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Mobile No.')), phone_edit, false)
 
-	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Email')), mail, false)
+	WebUI.verifyMatch(WebUI.getText(CustomKeywords.'common.outputObject'('Email')), mail_edit, false)
 }

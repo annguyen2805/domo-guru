@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Submit Change Through Data File</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>849bd840-60c3-4d86-8264-1a8499ce1a68</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4a782652-6d44-4e27-a2dc-ba33cbbdb20a</id>
+      <masked>false</masked>
+      <name>oldPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f6bb8bc4-52aa-4367-9175-8257614f19b9</id>
+      <masked>false</masked>
+      <name>newPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e52ddf53-303d-4b4e-806a-fe261a067b83</id>
+      <masked>false</masked>
+      <name>confirmPassword</name>
+   </variable>
+</TestCaseEntity>

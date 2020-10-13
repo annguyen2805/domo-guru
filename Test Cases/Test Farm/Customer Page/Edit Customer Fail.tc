@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Customer Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e46f8b60-793f-493d-a26c-1d86823cd28a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f62ea067-baa5-4081-aeef-35d9b11d9994</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e67debd9-a8a8-44c9-af39-2d3cac98d4ec</id>
+      <masked>false</masked>
+      <name>address_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d2758f38-418a-4a51-b963-5f5fc2892484</id>
+      <masked>false</masked>
+      <name>city_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d608ec49-29cc-4320-93c3-57f2cde8b3bd</id>
+      <masked>false</masked>
+      <name>state_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2bd79231-b8ca-42b4-a1c1-3a31488a747d</id>
+      <masked>false</masked>
+      <name>pin_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c9faf828-8f60-40d5-9ff0-fb6b85c72aaf</id>
+      <masked>false</masked>
+      <name>phone_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8a2ceb54-f1be-4311-a161-a128189d4af5</id>
+      <masked>false</masked>
+      <name>mail_edit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3a34bc6b-f2de-45f4-a772-45a744497516</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>fc9caa56-c781-421a-bc6e-9066079d14ea</id>
+      <masked>false</masked>
+      <name>expectedMessage</name>
+   </variable>
+</TestCaseEntity>

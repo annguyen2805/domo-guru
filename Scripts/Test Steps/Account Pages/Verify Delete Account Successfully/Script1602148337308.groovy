@@ -19,7 +19,7 @@ WebUI.waitForAlert(5)
 
 if (WebUI.verifyMatch(WebUI.getAlertText(), 'Account Deleted Sucessfully', false)) {
     println('Deleted')
-
+	WebUI.delay(3)
     WebUI.acceptAlert()
 
     
@@ -36,8 +36,9 @@ WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 WebUI.waitForAlert(3)
 
 if (WebUI.verifyMatch(WebUI.getAlertText(), 'Account does not exist', false)) {
-    //println("Deleting in excel")
+    
     //CustomKeywords.'common.deleteAccountID'(Integer.parseInt(accountID))
+	WebUI.delay(3)
     WebUI.acceptAlert()
 }
 

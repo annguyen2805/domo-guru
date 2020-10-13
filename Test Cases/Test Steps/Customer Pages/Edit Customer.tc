@@ -17,41 +17,41 @@
       <description></description>
       <id>3946578d-3f54-4faf-8ac1-346814ecd19f</id>
       <masked>false</masked>
-      <name>address</name>
+      <name>address_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>30e4ba93-0068-4595-bb99-2302615aba8d</id>
       <masked>false</masked>
-      <name>city</name>
+      <name>city_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>91fae610-9e92-4eec-b202-094777a89ec5</id>
       <masked>false</masked>
-      <name>state</name>
+      <name>state_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>ea3021f9-651b-465c-953a-4f5189981ab5</id>
       <masked>false</masked>
-      <name>pin</name>
+      <name>pin_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>741b987c-84a4-4b41-a3c9-ab07beb42a80</id>
       <masked>false</masked>
-      <name>phone</name>
+      <name>phone_edit</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
       <id>381b402e-c170-43f7-9465-008170936d75</id>
       <masked>false</masked>
-      <name>mail</name>
+      <name>mail_edit</name>
    </variable>
 </TestCaseEntity>
