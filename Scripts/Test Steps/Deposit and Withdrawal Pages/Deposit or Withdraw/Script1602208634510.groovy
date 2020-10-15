@@ -19,11 +19,11 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'common.clickMainOptions'(type)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('ammount'), amount)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('ammount'), amount)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('desc'), description)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('desc'), description)
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 

@@ -15,7 +15,7 @@
       <guid>deaef821-55f4-4a17-81ac-d16de7fb0c5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 6 - Transfer then Verify/Transfer then Verify by Balance Enquiry</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 6 - Transfer then Verify/Transfer then Verify by Balance Enquiry</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fa180216-d4cf-410c-a2ee-96856954c377</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Fund Transfer</testDataId>
+         <testDataId>Data Files/Happy Cases/Fund Transfer</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>fa180216-d4cf-410c-a2ee-96856954c377</testDataLinkId>
@@ -60,7 +60,7 @@
       <guid>4c6e49ca-982b-4701-93a1-ddd0953e74da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 6 - Transfer then Verify/Transfer then Verify by Custom Statement</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 6 - Transfer then Verify/Transfer then Verify by Custom Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>62a149dc-54c2-42c9-9a08-64ea5d4a728d</id>
@@ -68,7 +68,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Fund Transfer</testDataId>
+         <testDataId>Data Files/Happy Cases/Fund Transfer</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>62a149dc-54c2-42c9-9a08-64ea5d4a728d</testDataLinkId>
@@ -147,7 +147,7 @@
       <guid>4d5d2cb4-843f-4c80-89ca-cf6711add0a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 6 - Transfer then Verify/Transfer then Verify by Mini Statement</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 6 - Transfer then Verify/Transfer then Verify by Mini Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0bfd7d71-15ae-4647-97bf-b6ff267bb826</id>
@@ -155,7 +155,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Fund Transfer</testDataId>
+         <testDataId>Data Files/Happy Cases/Fund Transfer</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>0bfd7d71-15ae-4647-97bf-b6ff267bb826</testDataLinkId>

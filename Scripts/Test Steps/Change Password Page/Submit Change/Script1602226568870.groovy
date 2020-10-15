@@ -20,13 +20,13 @@ import net.sf.jasperreports.web.util.WebUtil as WebUtil
 
 CustomKeywords.'common.clickMainOptions'('Change Password')
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('oldpassword'), GlobalVariable.password)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('oldpassword'), GlobalVariable.password)
 
 String newPassword = CustomKeywords.'common.randomPassword'()
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('newpassword'), newPassword)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('newpassword'), newPassword)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('confirmpassword'), newPassword)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('confirmpassword'), newPassword)
 
 WebUI.click(CustomKeywords.'common.inputFieldByName'('sub'))
 

@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'common.clickMainOptions'('Customised Statement')
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('fdate'), fromDate)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('fdate'), fromDate)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('tdate'), toDate)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('tdate'), CustomKeywords.'common.getCurrentDate'())
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('amountlowerlimit'), minimumValue)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('amountlowerlimit'), minimumValue)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('numtransaction'), numOfTransaction)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('numtransaction'), numOfTransaction)
 
 WebUI.delay(5)
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))

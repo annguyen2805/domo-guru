@@ -17,6 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'common.clickMainOptions'('Mini Statement')
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('accountno'), accountID)
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))

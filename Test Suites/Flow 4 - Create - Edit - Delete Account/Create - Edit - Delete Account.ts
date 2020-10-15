@@ -15,7 +15,7 @@
       <guid>19ac5841-9dfd-445d-83ea-719202554fa9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 4 - Create, Edit, Delete Account/Create, Edit, Delete Account</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 4 - Create, Edit, Delete Account/Create, Edit, Delete Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>20a983d4-2d0f-49b2-8d64-50e355c1e761</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/EditAccount</testDataId>
+         <testDataId>Data Files/Happy Cases/EditAccount</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>

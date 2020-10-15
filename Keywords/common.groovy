@@ -32,7 +32,8 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import java.lang.String
 import org.openqa.selenium.By as By
-
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
 public class common {
 	String basePath = new File("").getAbsolutePath();
 	@Keyword
@@ -282,10 +283,18 @@ public class common {
 		}
 		KeywordUtil.markPassed("Min amount verified")
 	}
+	@Keyword
+	String getCurrentDate() {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+		LocalDateTime now = LocalDateTime.now();
+		return (dtf.format(now)).toString();
+	}
 
 
 	@Keyword
 	def clickMainOptions(String optionName) {
+		WebUI.waitForElementPresent(findTestObject('Common Objects/MainOption', ['optionName' : optionName]), 3)
+		WebUI.waitForElementClickable(findTestObject('Common Objects/MainOption', ['optionName' : optionName]), 3)
 		WebUI.verifyElementClickable(findTestObject('Common Objects/MainOption', ['optionName' : optionName]))
 		WebUI.click(findTestObject('Common Objects/MainOption', ['optionName' : optionName]))
 		WebUI.waitForPageLoad(2)
@@ -300,9 +309,9 @@ public class common {
 		if(input.equals('<blank>')) {
 			input = ''
 		}
+		WebUI.waitForElementVisible(to, 3)
 		WebUI.clearText(to)
 		WebUI.sendKeys(to, input)
-		
 	}
 
 	@Keyword

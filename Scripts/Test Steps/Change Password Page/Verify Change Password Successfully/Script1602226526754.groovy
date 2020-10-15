@@ -19,8 +19,8 @@ WebUI.verifyMatch(WebUI.getAlertText().toLowerCase(), 'password is changed', fal
 
 println(newPassword)
 
-CustomKeywords.'common.updatePassword'(newPassword)
-
 GlobalVariable.password = newPassword
+
+CustomKeywords.'common.updatePassword'(newPassword)
 
 WebUI.acceptAlert()

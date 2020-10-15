@@ -4,7 +4,7 @@ import internal.GlobalVariable as GlobalVariable
 
 
 WebUI.waitForPageLoad(3)
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('uid'), GlobalVariable.username)
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByType'('password'), GlobalVariable.password)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('uid'), GlobalVariable.username)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByType'('password'), GlobalVariable.password)
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 

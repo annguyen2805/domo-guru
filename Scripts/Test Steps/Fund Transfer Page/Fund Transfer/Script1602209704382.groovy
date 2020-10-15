@@ -17,13 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'common.clickMainOptions'('Fund Transfer')
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('payersaccount'), payerAccount)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('payersaccount'), payerAccount)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('payeeaccount'), payeeAccount)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('payeeaccount'), payeeAccount)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('ammount'), amount)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('ammount'), amount)
 
-WebUI.sendKeys(CustomKeywords.'common.inputFieldByName'('desc'), description)
+CustomKeywords.'common.sendKeys'(CustomKeywords.'common.inputFieldByName'('desc'), description)
 
 WebUI.click(CustomKeywords.'common.inputFieldByType'('submit'))
 

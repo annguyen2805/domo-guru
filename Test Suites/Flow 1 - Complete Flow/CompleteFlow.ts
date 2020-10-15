@@ -15,7 +15,7 @@
       <guid>fb52e711-6758-46e5-b1f1-0c1884df6275</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 1 - Complete flow/CompleteFlow</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 1 - Complete flow/CompleteFlow</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>76f6bc0f-8b55-499b-9a73-7340cd92aba9</id>

@@ -12,13 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3d58c497-68e9-4025-b593-0d808bc2ba83</testSuiteGuid>
    <testCaseLink>
-      <guid>d12f7340-7312-4a99-9211-1d967cba9d30</guid>
+      <guid>98a6f4c2-f2f6-47fd-9ebe-93633004f5fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 2 - Changing password/Change Password Fail</testCaseId>
+      <testCaseId>Test Cases/Test Farm/Change Password/Change Password Fail</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>331744df-677a-4f41-8bf2-e25ea76eecb6</id>
+         <id>be3d6017-9c1f-43b8-80f8-63d861642da4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,34 +26,34 @@
          <testDataId>Data Files/Unhappy Cases/Credential_Custom</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <testDataLinkId>be3d6017-9c1f-43b8-80f8-63d861642da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>oldPassword</value>
-         <variableId>1a7e77a7-498e-4579-89a3-9db2804e1d9b</variableId>
+         <variableId>6a7066dc-61a8-4247-98b2-e6ff1ec7aeef</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <testDataLinkId>be3d6017-9c1f-43b8-80f8-63d861642da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>newPassword</value>
-         <variableId>06ee30a2-ff94-4715-bf86-3aa48d7e65bd</variableId>
+         <variableId>8120066f-b913-4f59-9c34-04ed2c47748a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <testDataLinkId>be3d6017-9c1f-43b8-80f8-63d861642da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>confirmPassword</value>
-         <variableId>fdbc51a7-f9df-4c7c-bdef-dab01deb7abf</variableId>
+         <variableId>324ce70d-800c-492f-884c-5bc969c2d52b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <testDataLinkId>be3d6017-9c1f-43b8-80f8-63d861642da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>id</value>
-         <variableId>101e9181-60bf-416a-b172-08ad844e36dc</variableId>
+         <variableId>c6e52951-6d3f-45d4-bfc1-1598bdbb4b71</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>331744df-677a-4f41-8bf2-e25ea76eecb6</testDataLinkId>
+         <testDataLinkId>be3d6017-9c1f-43b8-80f8-63d861642da4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>expectedMessage</value>
-         <variableId>cbab6ab6-8e90-4746-96d0-632987a8fc68</variableId>
+         <variableId>ce2d53c0-9ad9-4874-921e-1474ff89d3c7</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

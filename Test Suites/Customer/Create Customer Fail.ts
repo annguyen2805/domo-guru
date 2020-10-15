@@ -15,7 +15,7 @@
       <guid>1c1d9fb0-4644-4e37-acca-489792afcb26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Customer Page/Create Customer Fail</testCaseId>
+      <testCaseId>Test Cases/Test Farm/New Customer Page/Create Customer Fail</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ca192e30-ee19-4c64-b326-f5744367fcfb</id>

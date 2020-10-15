@@ -15,7 +15,7 @@
       <guid>b809276c-d8d5-4303-bc7b-f7c04afcd5e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 3 - Create, Edit, Delete Customer/Create - Edit - Delete Customer</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 3 - Create, Edit, Delete Customer/Create - Edit - Delete Customer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b325283d-84b3-4e74-8004-ad266c370a9e</id>

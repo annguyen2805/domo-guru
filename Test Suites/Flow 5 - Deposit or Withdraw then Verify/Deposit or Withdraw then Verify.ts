@@ -14,8 +14,8 @@
    <testCaseLink>
       <guid>76e64e97-fb0a-4ec2-80ac-fcf06a0f45e9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Balance Enquiry</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Test Flow/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Balance Enquiry</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>59bced19-3c6a-4070-8092-f4858fc26fcd</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Deposit-Withdrawal</testDataId>
+         <testDataId>Data Files/Happy Cases/Deposit-Withdrawal</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>59bced19-3c6a-4070-8092-f4858fc26fcd</testDataLinkId>
@@ -59,8 +59,8 @@
    <testCaseLink>
       <guid>a7d3d159-4594-450f-baa8-ddf36b543576</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Custom Statement</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Test Flow/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Custom Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3ed164a6-1d0b-4a96-a3fa-8cad56a64e78</id>
@@ -68,7 +68,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Deposit-Withdrawal</testDataId>
+         <testDataId>Data Files/Happy Cases/Deposit-Withdrawal</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>3ed164a6-1d0b-4a96-a3fa-8cad56a64e78</testDataLinkId>
@@ -129,7 +129,7 @@
       <guid>21ca1697-df36-4f6c-9545-25561bca36fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Mini Statement</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Mini Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c5ca7fe7-77f3-4535-b9b1-fd6112847534</id>
@@ -137,7 +137,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Deposit-Withdrawal</testDataId>
+         <testDataId>Data Files/Happy Cases/Deposit-Withdrawal</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>c5ca7fe7-77f3-4535-b9b1-fd6112847534</testDataLinkId>

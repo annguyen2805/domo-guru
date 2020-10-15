@@ -15,7 +15,7 @@
       <guid>88cf1eaa-f6cc-4ea5-b819-5cf7bf7628f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Custom Statement</testCaseId>
+      <testCaseId>Test Cases/Test Flow/Flow 5 - Deposit or Withdraw then Verify/Deposit or Withdraw then Verify by Custom Statement</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dc1ee0f2-ba87-4004-8ff1-e5dacca84834</id>

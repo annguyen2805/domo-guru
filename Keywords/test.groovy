@@ -22,7 +22,7 @@ public class test {
 	@Keyword
 	int getIDFromTestCase()
 	{
-		return WebUI.callTestCase(findTestCase('Test Steps/Account Pages/Create New Account'), [('customerID') : customerID
+		return WebUI.callTestCase(findTestCase('Test Steps/New Account/Create New Account'), [('customerID') : customerID
         , ('accountType') : accountType, ('iniDeposit') : iniDeposit], FailureHandling.STOP_ON_FAILURE)
 	}
 }

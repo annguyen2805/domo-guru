@@ -19,4 +19,9 @@
       <initValue>'http://demo.guru99.com/V4/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>timeOut</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

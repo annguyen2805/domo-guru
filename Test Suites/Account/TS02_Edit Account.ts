@@ -15,7 +15,7 @@
       <guid>c445a512-da80-46af-aa55-1b24f6689fff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Steps/Account Pages/Edit Account</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Edit Account/Edit Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>610e6668-fde6-48bf-9106-954506c5b811</id>

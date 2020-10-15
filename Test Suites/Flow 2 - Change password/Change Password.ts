@@ -12,9 +12,9 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>27ebf9a2-18bb-4fb4-ac6b-cba7c8b5c02f</testSuiteGuid>
    <testCaseLink>
-      <guid>e5dc274a-2cb9-42b8-a70a-09cac1fba3cf</guid>
+      <guid>af45495f-462a-49e7-8db8-f0b06a8ab3e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Farm/Flow 2 - Changing password/Change Password Success</testCaseId>
+      <testCaseId>Test Cases/Test Farm/Change Password/Change Password Success</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

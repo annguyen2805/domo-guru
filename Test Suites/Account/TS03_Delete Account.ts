@@ -15,7 +15,7 @@
       <guid>7dedc0f3-dad2-49eb-bab8-ccb46a3edff4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Steps/Account Pages/Delete Account</testCaseId>
+      <testCaseId>Test Cases/Test Steps/Delete Account/Delete Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>51c37468-6021-4796-8756-f8ad135e0413</id>
