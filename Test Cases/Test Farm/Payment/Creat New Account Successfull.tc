@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Payment</name>
+   <name>Creat New Account Successfull</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f7c203d2-6326-4225-ac08-ab67686ef6c1</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'katalon studio'</defaultValue>
       <description></description>
       <id>62ee6e00-86c0-4918-bad7-5d13c1795310</id>
       <masked>false</masked>
       <name>nameValue</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'01/01/1997'</defaultValue>
       <description></description>
       <id>f59491db-127a-4e70-a7f8-bf0f84fac10a</id>
       <masked>false</masked>
       <name>dateOfBirth</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ha noi nghia hung nam dinh'</defaultValue>
       <description></description>
       <id>53d7d56b-da8f-46a9-8c60-73838e367a1e</id>
       <masked>false</masked>
       <name>addressValue</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ha noi'</defaultValue>
       <description></description>
       <id>96068b62-bce2-4d7c-832f-c33588b860a5</id>
       <masked>false</masked>
       <name>cityValue</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'hai phong'</defaultValue>
       <description></description>
       <id>31c289af-698b-480f-8898-d5646f094188</id>
       <masked>false</masked>
       <name>stateValue</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'555555'</defaultValue>
       <description></description>
       <id>c062b218-0799-4edf-b5d3-dcd9ea9870a7</id>
       <masked>false</masked>
@@ -55,7 +55,7 @@
       <name>emailValue</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'123456789'</defaultValue>
       <description></description>
       <id>ce4d3654-d207-43de-96df-8d8fd690a22b</id>
       <masked>false</masked>
@@ -74,5 +74,54 @@
       <id>6443e15c-a6a8-4be0-961c-4180ea7a32f9</id>
       <masked>false</masked>
       <name>TextHeaderNewCustomerSuccess</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd5ca374-368d-4e4d-818c-e8d36fd9c159</id>
+      <masked>false</masked>
+      <name>customName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f2b3b16-4499-40a4-b23a-eae744d24253</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b5d7b55-9f15-47ae-ba16-9d1d7f640153</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1958e7eb-9f3e-4eee-8dc4-5d1ee76666eb</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00d7e382-8dd3-44ad-9749-f33cb620c36b</id>
+      <masked>false</masked>
+      <name>pin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbb89021-e285-43de-a627-bb8a3f33b455</id>
+      <masked>false</masked>
+      <name>mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68d6c00a-9ac2-477e-a13d-cddf0a5c434e</id>
+      <masked>false</masked>
+      <name>email</name>
    </variable>
 </TestCaseEntity>

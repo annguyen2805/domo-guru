@@ -16,8 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject(null), 0)
+WebUI.waitForElementVisible(findTestObject('Common UI/TEXT ROW TABLE'), 0)
 
-String text= WebUI.getText(CustomKeywords.'commonKeywork.commonFuntion.findTestObjectDataTable'(nameRow))
+String text = WebUI.getText(CustomKeywords.'commonKeywork.commonFuntion.findTestObjectDataTable'(nameRow))
 
 return text
+

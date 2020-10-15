@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 // Creat New Customer
+WebUI.callTestCase(findTestCase('Page Object/Common Page Object/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+emailValue = GlobalVariable.email
+
 WebUI.callTestCase(findTestCase('Page Object/Common Page Object/Click Switch Dynamic Page'), [('namePage') : 'New Customer'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page Object/Common Page Object/Input Danamic Textbox'), [('value') : nameValue, ('atributeValue') : 'name'], FailureHandling.CONTINUE_ON_FAILURE)
@@ -40,4 +44,6 @@ WebUI.callTestCase(findTestCase('Page Object/Common Page Object/Input Danamic Te
 WebUI.callTestCase(findTestCase('Page Object/New Customer Page Object/Click Submit Button'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Page Object/Common Page Object/Verify Message Text Success Dynamic'), [('TextHeader') : TextHeaderNewCustomerSuccess], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Page Object/New Customer Page Object/Verify Creat New Customer Suceess'), [('customName') : nameValue, ('address') : addressValue, ('city') : cityValue, ('state') : stateValue, ('pin') : pinValue, ('mobile') : telephoneValue, ('email') : emailValue], FailureHandling.CONTINUE_ON_FAILURE)
 
