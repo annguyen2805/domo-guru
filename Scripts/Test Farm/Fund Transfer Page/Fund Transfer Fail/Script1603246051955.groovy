@@ -15,4 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyMatch(WebUI.getAlertText(), 'Transfer Failed. Account Balance low!!', false)
+WebUI.callTestCase(findTestCase('Test Steps/Fund Transfer Page/Fund Transfer'), [('payerAccount') : payerAccount, ('payeeAccount') : payeeAccount
+        , ('amount') : amount, ('description') : description], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Test Steps/Fund Transfer Page/Verify Transfer Fail'), [:], FailureHandling.STOP_ON_FAILURE)
+

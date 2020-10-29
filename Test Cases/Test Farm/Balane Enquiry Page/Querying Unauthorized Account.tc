@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Querying Unauthorized Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f9e0a7ae-5085-413e-b794-45475559f413</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6afad7b9-a086-42b1-899f-08f867117062</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+</TestCaseEntity>

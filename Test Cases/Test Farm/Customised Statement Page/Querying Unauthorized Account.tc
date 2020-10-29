@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Querying Unauthorized Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>641a8931-be6c-488f-b09e-d261d09137b6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>8a9e6904-e773-4763-ae05-73c3b3dd00b6</id>
+      <masked>false</masked>
+      <name>accountID</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ced8b501-46e2-45e7-9f43-077207323b6b</id>
+      <masked>false</masked>
+      <name>fromDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>eff5d4d1-ddd6-4d08-99b8-a250cc3efc65</id>
+      <masked>false</masked>
+      <name>toDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>057d7bf6-ea53-44d6-ba82-e3ea1c9c231f</id>
+      <masked>false</masked>
+      <name>minimumValue</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>40ee3367-d27e-4923-bc14-e9d7fa9bde56</id>
+      <masked>false</masked>
+      <name>numOfTransaction</name>
+   </variable>
+</TestCaseEntity>

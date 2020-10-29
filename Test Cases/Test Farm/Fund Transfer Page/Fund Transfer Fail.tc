@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fund Transfer Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2b1333d-38fc-4e5c-90fa-2195e7627247</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d44eeb92-0666-405c-b9d5-94133b767bee</id>
+      <masked>false</masked>
+      <name>payerAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>2763c4cb-5253-4ac4-9cb7-c0c145e9dcd8</id>
+      <masked>false</masked>
+      <name>payeeAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5a03a60f-3f31-4078-8564-26bc93109fb8</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a491b9dd-8eeb-429c-85eb-a23b84c168f0</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>
